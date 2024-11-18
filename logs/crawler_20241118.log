@@ -1,0 +1,1305 @@
+2024-11-18 19:45:49,520 - module - INFO - 定时任务已启动，将在每天 19:46 执行
+2024-11-18 19:46:09,531 - module - INFO - === 开始执行爬取和发送任务 ===
+2024-11-18 19:46:09,531 - module - INFO - 当前时间: 2024-11-18 19:46:09
+2024-11-18 19:46:09,531 - module - INFO - 星期: 一
+2024-11-18 19:46:09,531 - module - INFO - 
+开始执行论文检索 - 当前时间: 2024-11-18 19:46:09
+2024-11-18 19:46:09,531 - module - INFO - 今天是周一，检索范围：2024-11-15 到 2024-11-18
+2024-11-18 19:46:09,531 - module - INFO - 领域 语音理解 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS") AND lastUpdatedDate:[202411150000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 19:46:09,531 - module - INFO - 领域 语音生成 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS") AND lastUpdatedDate:[202411150000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 19:46:09,531 - module - INFO - 领域 语音大模型 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS" OR cat:"cs.AI" OR cat:"cs.LG" OR cat:"cs.MM") AND lastUpdatedDate:[202411150000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 19:46:09,531 - module - INFO - 领域 音乐生成 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS" OR cat:"cs.MM") AND lastUpdatedDate:[202411150000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 19:46:09,532 - module - INFO - 领域 大模型 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.AI" OR cat:"cs.LG" OR cat:"cs.CL") AND lastUpdatedDate:[202411150000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 19:46:35,016 - module - INFO - 开始处理文章: Comparison of linear and nonlinear methods for decoding selective
+  attention to speech from ear-EEG recordings
+2024-11-18 19:46:35,016 - module - INFO - 开始处理文章: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with
+  Watermarking
+2024-11-18 19:46:35,016 - module - INFO - 开始处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:46:35,016 - module - INFO - 开始处理文章: A Low-rank Matching Attention based Cross-modal Feature Fusion Method
+  for Conversational Emotion Recognition
+2024-11-18 19:46:35,016 - module - INFO - 开始处理文章: Perceptual implications of simplifying geometrical acoustics models for
+  Ambisonics-based binaural reverberation
+2024-11-18 19:46:35,017 - module - INFO - 开始处理文章: EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with
+  Audio Adversarial Perturbations
+2024-11-18 19:46:35,017 - module - INFO - 开始处理文章: XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing
+  Attack Detection
+2024-11-18 19:46:35,017 - module - INFO - 开始处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:46:35,017 - module - INFO - 开始处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:46:35,017 - module - INFO - 开始处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:46:37,021 - module - INFO - 开始处理文章: Perceptual implications of simplifying geometrical acoustics models for
+  Ambisonics-based binaural reverberation
+2024-11-18 19:46:37,023 - module - INFO - 开始处理文章: Comparison of linear and nonlinear methods for decoding selective
+  attention to speech from ear-EEG recordings
+2024-11-18 19:46:37,023 - module - INFO - 开始处理文章: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with
+  Watermarking
+2024-11-18 19:46:38,252 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:38,257 - module - INFO - 成功处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:46:38,278 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:38,280 - module - INFO - 成功处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:46:38,632 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:38,634 - module - INFO - 成功处理文章: A Low-rank Matching Attention based Cross-modal Feature Fusion Method
+  for Conversational Emotion Recognition
+2024-11-18 19:46:38,764 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:38,766 - module - INFO - 成功处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:46:39,026 - module - INFO - 开始处理文章: A Low-rank Matching Attention based Cross-modal Feature Fusion Method
+  for Conversational Emotion Recognition
+2024-11-18 19:46:39,026 - module - INFO - 开始处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:46:39,788 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:39,790 - module - INFO - 成功处理文章: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with
+  Watermarking
+2024-11-18 19:46:40,110 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:40,112 - module - INFO - 成功处理文章: XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing
+  Attack Detection
+2024-11-18 19:46:40,263 - module - INFO - 开始处理文章: EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with
+  Audio Adversarial Perturbations
+2024-11-18 19:46:40,282 - module - INFO - 开始处理文章: XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing
+  Attack Detection
+2024-11-18 19:46:40,635 - module - INFO - 开始处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:46:40,768 - module - INFO - 开始处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:46:41,794 - module - INFO - 开始处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:46:42,114 - module - INFO - 开始处理文章: VeriGraph: Scene Graphs for Execution Verifiable Robot Planning
+2024-11-18 19:46:42,265 - module - INFO - 开始处理文章: Temporal Patterns of Multiple Long-Term Conditions in Individuals with
+  Intellectual Disability Living in Wales: An Unsupervised Clustering Approach
+  to Disease Trajectories
+2024-11-18 19:46:44,269 - module - INFO - 开始处理文章: MARS: Unleashing the Power of Variance Reduction for Training Large
+  Models
+2024-11-18 19:46:44,502 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:44,505 - module - INFO - 成功处理文章: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with
+  Watermarking
+2024-11-18 19:46:46,027 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:46,030 - module - INFO - 成功处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:46:46,226 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:46,228 - module - INFO - 成功处理文章: XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing
+  Attack Detection
+2024-11-18 19:46:46,505 - module - INFO - 开始处理文章: Learning Diffusion Priors from Observations by Expectation Maximization
+2024-11-18 19:46:46,923 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:46,925 - module - INFO - 成功处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:46:47,449 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:47,452 - module - INFO - 成功处理文章: VeriGraph: Scene Graphs for Execution Verifiable Robot Planning
+2024-11-18 19:46:47,467 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:47,469 - module - INFO - 成功处理文章: A Low-rank Matching Attention based Cross-modal Feature Fusion Method
+  for Conversational Emotion Recognition
+2024-11-18 19:46:48,035 - module - INFO - 开始处理文章: Mitigating Hallucination in Multimodal Large Language Model via
+  Hallucination-targeted Direct Preference Optimization
+2024-11-18 19:46:48,231 - module - INFO - 开始处理文章: The Spatial Complexity of Optical Computing and How to Reduce It
+2024-11-18 19:46:48,507 - module - INFO - 开始处理文章: Mitigating Parameter Degeneracy using Joint Conditional Diffusion Model
+  for WECC Composite Load Model in Power Systems
+2024-11-18 19:46:48,928 - module - INFO - 开始处理文章: Private Counterfactual Retrieval With Immutable Features
+2024-11-18 19:46:49,349 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:49,351 - module - INFO - 成功处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:46:49,456 - module - INFO - 开始处理文章: Back to Supervision: Boosting Word Boundary Detection through Frame
+  Classification
+2024-11-18 19:46:49,473 - module - INFO - 开始处理文章: Evaluating Creativity and Deception in Large Language Models: A
+  Simulation Framework for Multi-Agent Balderdash
+2024-11-18 19:46:49,567 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:49,570 - module - INFO - 成功处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:46:50,235 - module - INFO - 开始处理文章: Multiscale Dubuc: A New Similarity Measure for Time Series
+2024-11-18 19:46:50,511 - module - INFO - 开始处理文章: Demo: Multi-Modal Seizure Prediction System
+2024-11-18 19:46:50,658 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:50,660 - module - INFO - 成功处理文章: MARS: Unleashing the Power of Variance Reduction for Training Large
+  Models
+2024-11-18 19:46:50,932 - module - INFO - 开始处理文章: Towards Automatic Evaluation of Task-Oriented Dialogue Flows
+2024-11-18 19:46:51,356 - module - INFO - 开始处理文章: Large Language Model-Based Interpretable Machine Learning Control in
+  Building Energy Systems
+2024-11-18 19:46:51,574 - module - INFO - 开始处理文章: Swarm Characteristics Classification Using Neural Networks
+2024-11-18 19:46:51,884 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:51,885 - module - INFO - 成功处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:46:52,240 - module - INFO - 开始处理文章: Repurposing Stable Diffusion Attention for Training-Free Unsupervised
+  Interactive Segmentation
+2024-11-18 19:46:52,515 - module - INFO - 开始处理文章: Advancing Building Energy Modeling with Large Language Models:
+  Exploration and Case Studies
+2024-11-18 19:46:52,664 - module - INFO - 开始处理文章: Features that Make a Difference: Leveraging Gradients for Improved
+  Dictionary Learning
+2024-11-18 19:46:52,936 - module - INFO - 开始处理文章: Coniferest: a complete active anomaly detection framework
+2024-11-18 19:46:53,579 - module - INFO - 开始处理文章: KPC-cF: Aspect-Based Sentiment Analysis via Implicit-Feature Alignment
+  with Corpus Filtering
+2024-11-18 19:46:53,890 - module - INFO - 开始处理文章: Recurrent Neural Goodness-of-Fit Test for Time Series
+2024-11-18 19:46:54,018 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:54,020 - module - INFO - 成功处理文章: Mitigating Hallucination in Multimodal Large Language Model via
+  Hallucination-targeted Direct Preference Optimization
+2024-11-18 19:46:54,244 - module - INFO - 开始处理文章: Exploring GPU-to-GPU Communication: Insights into Supercomputer
+  Interconnects
+2024-11-18 19:46:54,666 - module - INFO - 开始处理文章: Deep Learning for Micro-Scale Crack Detection on Imbalanced Datasets
+  Using Key Point Localization
+2024-11-18 19:46:54,940 - module - INFO - 开始处理文章: Low-Latency Task-Oriented Communications with Multi-Round, Multi-Task
+  Deep Learning
+2024-11-18 19:46:55,310 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:55,311 - module - INFO - 成功处理文章: Evaluating Creativity and Deception in Large Language Models: A
+  Simulation Framework for Multi-Agent Balderdash
+2024-11-18 19:46:55,583 - module - INFO - 开始处理文章: Framework for Co-distillation Driven Federated Learning to Address Class
+  Imbalance in Healthcare
+2024-11-18 19:46:55,655 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:55,657 - module - INFO - 成功处理文章: Large Language Model-Based Interpretable Machine Learning Control in
+  Building Energy Systems
+2024-11-18 19:46:55,894 - module - INFO - 开始处理文章: Perceptual implications of simplifying geometrical acoustics models for
+  Ambisonics-based binaural reverberation
+2024-11-18 19:46:56,024 - module - INFO - 开始处理文章: A Survey of Event Causality Identification: Principles, Taxonomy,
+  Challenges, and Assessment
+2024-11-18 19:46:56,224 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:56,226 - module - INFO - 成功处理文章: Advancing Building Energy Modeling with Large Language Models:
+  Exploration and Case Studies
+2024-11-18 19:46:56,248 - module - INFO - 开始处理文章: Towards High-Fidelity 3D Portrait Generation with Rich Details by
+  Cross-View Prior-Aware Diffusion
+2024-11-18 19:46:56,668 - module - INFO - 开始处理文章: Risk Sources and Risk Management Measures in Support of Standards for
+  General-Purpose AI Systems
+2024-11-18 19:46:56,944 - module - INFO - 开始处理文章: Mechanisms of Generative Image-to-Image Translation Networks
+2024-11-18 19:46:57,277 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:46:57,279 - module - INFO - 成功处理文章: Back to Supervision: Boosting Word Boundary Detection through Frame
+  Classification
+2024-11-18 19:46:57,315 - module - INFO - 开始处理文章: Continual Adversarial Reinforcement Learning (CARL) of False Data
+  Injection detection: forgetting and explainability
+2024-11-18 19:46:57,587 - module - INFO - 开始处理文章: Forming Auxiliary High-confident Instance-level Loss to Promote Learning
+  from Label Proportions
+2024-11-18 19:46:57,660 - module - INFO - 开始处理文章: Mitigating the Linguistic Gap with Phonemic Representations for Robust
+  Cross-lingual Transfer
+2024-11-18 19:46:57,898 - module - INFO - 开始处理文章: Provocation: Who benefits from "inclusion" in Generative AI?
+2024-11-18 19:46:58,025 - module - INFO - 开始处理文章: Weakly-Supervised Multimodal Learning on MIMIC-CXR
+2024-11-18 19:46:58,229 - module - INFO - 开始处理文章: Training Deep 3D Convolutional Neural Networks to Extract BSM Physics
+  Parameters Directly from HEP Data: a Proof-of-Concept Study Using Monte Carlo
+  Simulations
+2024-11-18 19:46:58,252 - module - INFO - 开始处理文章: Comparative Analysis of Machine Learning Approaches for Bone Age
+  Assessment: A Comprehensive Study on Three Distinct Models
+2024-11-18 19:46:58,673 - module - INFO - 开始处理文章: Domain Adaptation-based Edge Computing for Cross-Conditions Fault
+  Diagnosis
+2024-11-18 19:46:58,948 - module - INFO - 开始处理文章: On the Cost of Model-Serving Frameworks: An Experimental Evaluation
+2024-11-18 19:46:59,282 - module - INFO - 开始处理文章: Safe Text-to-Image Generation: Simply Sanitize the Prompt Embedding
+2024-11-18 19:46:59,320 - module - INFO - 开始处理文章: Bitcoin Research with a Transaction Graph Dataset
+2024-11-18 19:46:59,591 - module - INFO - 开始处理文章: The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer
+  Use
+2024-11-18 19:46:59,664 - module - INFO - 开始处理文章: Open LLMs are Necessary for Current Private Adaptations and Outperform
+  their Closed Alternatives
+2024-11-18 19:46:59,902 - module - INFO - 开始处理文章: CE-SSL: Computation-Efficient Semi-Supervised Learning for ECG-based
+  Cardiovascular Diseases Detection
+2024-11-18 19:47:00,030 - module - INFO - 开始处理文章: Label Cluster Chains for Multi-Label Classification
+2024-11-18 19:47:00,232 - module - INFO - 开始处理文章: Improved Canonicalization for Model Agnostic Equivariance
+2024-11-18 19:47:00,256 - module - INFO - 开始处理文章: Inconsistencies In Consistency Models: Better ODE Solving Does Not Imply
+  Better Samples
+2024-11-18 19:47:00,678 - module - INFO - 开始处理文章: A Realistic Collimated X-Ray Image Simulation Pipeline
+2024-11-18 19:47:00,951 - module - INFO - 开始处理文章: ThermoHands: A Benchmark for 3D Hand Pose Estimation from Egocentric
+  Thermal Images
+2024-11-18 19:47:01,286 - module - INFO - 开始处理文章: RETR: Multi-View Radar Detection Transformer for Indoor Perception
+2024-11-18 19:47:01,324 - module - INFO - 开始处理文章: The ParClusterers Benchmark Suite (PCBS): A Fine-Grained Analysis of
+  Scalable Graph Clustering
+2024-11-18 19:47:01,595 - module - INFO - 开始处理文章: Unlocking Real-Time Fluorescence Lifetime Imaging: Multi-Pixel
+  Parallelism for FPGA-Accelerated Processing
+2024-11-18 19:47:01,906 - module - INFO - 开始处理文章: Disclosure of AI-Generated News Increases Engagement but Does Not Reduce
+  Aversion, Despite Positive Quality Ratings
+2024-11-18 19:47:02,032 - module - INFO - 开始处理文章: Systolic Arrays and Structured Pruning Co-design for Efficient
+  Transformers in Edge Systems
+2024-11-18 19:47:02,234 - module - INFO - 开始处理文章: Harnessing Machine Learning for Single-Shot Measurement of Free Electron
+  Laser Pulse Power
+2024-11-18 19:47:02,260 - module - INFO - 开始处理文章: Multidimensional Byte Pair Encoding: Shortened Sequences for Improved
+  Visual Data Generation
+2024-11-18 19:47:02,682 - module - INFO - 开始处理文章: Lateral Movement Detection via Time-aware Subgraph Classification on
+  Authentication Logs
+2024-11-18 19:47:03,327 - module - INFO - 开始处理文章: Scaling Law for Post-training after Model Pruning
+2024-11-18 19:47:03,598 - module - INFO - 开始处理文章: Towards Sample-Efficiency and Generalization of Transfer and Inverse
+  Reinforcement Learning: A Comprehensive Literature Review
+2024-11-18 19:47:03,723 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:03,724 - module - INFO - 成功处理文章: Open LLMs are Necessary for Current Private Adaptations and Outperform
+  their Closed Alternatives
+2024-11-18 19:47:03,912 - module - INFO - 开始处理文章: CLCE: An Approach to Refining Cross-Entropy and Contrastive Learning for
+  Optimized Learning Fusion
+2024-11-18 19:47:04,059 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:04,060 - module - INFO - 成功处理文章: ThermoHands: A Benchmark for 3D Hand Pose Estimation from Egocentric
+  Thermal Images
+2024-11-18 19:47:04,237 - module - INFO - 开始处理文章: MDHP-Net: Detecting Injection Attacks on In-vehicle Network using
+  Multi-Dimensional Hawkes Process and Temporal Model
+2024-11-18 19:47:04,687 - module - INFO - 开始处理文章: The Unreasonable Effectiveness of Guidance for Diffusion Models
+2024-11-18 19:47:05,603 - module - INFO - 开始处理文章: Artificial Intelligence in Pediatric Echocardiography: Exploring
+  Challenges, Opportunities, and Clinical Applications with Explainable AI and
+  Federated Learning
+2024-11-18 19:47:05,728 - module - INFO - 开始处理文章: Uncertainty in Supply Chain Digital Twins: A Quantum-Classical Hybrid
+  Approach
+2024-11-18 19:47:05,915 - module - INFO - 开始处理文章: Optimization-based Prompt Injection Attack to LLM-as-a-Judge
+2024-11-18 19:47:05,992 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:05,995 - module - INFO - 成功处理文章: Systolic Arrays and Structured Pruning Co-design for Efficient
+  Transformers in Edge Systems
+2024-11-18 19:47:06,064 - module - INFO - 开始处理文章: Measuring Non-Adversarial Reproduction of Training Data in Large
+  Language Models
+2024-11-18 19:47:06,119 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:06,121 - module - INFO - 成功处理文章: Scaling Law for Post-training after Model Pruning
+2024-11-18 19:47:06,241 - module - INFO - 开始处理文章: Learning rheological parameters of non-Newtonian fluids from velocimetry
+  data
+2024-11-18 19:47:06,692 - module - INFO - 开始处理文章: DCD: Discriminative and Consistent Representation Distillation
+2024-11-18 19:47:06,712 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:06,714 - module - INFO - 成功处理文章: RETR: Multi-View Radar Detection Transformer for Indoor Perception
+2024-11-18 19:47:07,212 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:07,224 - module - INFO - 成功处理文章: Multidimensional Byte Pair Encoding: Shortened Sequences for Improved
+  Visual Data Generation
+2024-11-18 19:47:07,607 - module - INFO - 开始处理文章: Efficient Neural Hybrid System Learning and Transition System
+  Abstraction for Dynamical Systems
+2024-11-18 19:47:07,729 - module - INFO - 开始处理文章: Generative AI in Multimodal User Interfaces: Trends, Challenges, and
+  Cross-Platform Adaptability
+2024-11-18 19:47:07,999 - module - INFO - 开始处理文章: GenoCraft: A Comprehensive, User-Friendly Web-Based Platform for
+  High-Throughput Omics Data Analysis and Visualization
+2024-11-18 19:47:08,123 - module - INFO - 开始处理文章: ColorEdit: Training-free Image-Guided Color editing with diffusion model
+2024-11-18 19:47:08,244 - module - INFO - 开始处理文章: A Low-Resolution Image is Worth 1x1 Words: Enabling Fine Image
+  Super-Resolution with Transformers and TaylorShift
+2024-11-18 19:47:08,695 - module - INFO - 开始处理文章: MCL: Multi-view Enhanced Contrastive Learning for Chest X-ray Report
+  Generation
+2024-11-18 19:47:08,718 - module - INFO - 开始处理文章: A Survey on State-of-the-art Deep Learning Applications and Challenges
+2024-11-18 19:47:09,225 - module - INFO - 开始处理文章: Supra-Laplacian Encoding for Transformer on Dynamic Graphs
+2024-11-18 19:47:09,610 - module - INFO - 开始处理文章: Machine Learning Algorithms to Assess Site Closure Time Frames for Soil
+  and Groundwater Contamination
+2024-11-18 19:47:09,732 - module - INFO - 开始处理文章: Fault Injection and Safe-Error Attack for Extraction of Embedded Neural
+  Network Models
+2024-11-18 19:47:10,003 - module - INFO - 开始处理文章: An Empirical Study on LLM-based Agents for Automated Bug Fixing
+2024-11-18 19:47:10,126 - module - INFO - 开始处理文章: Embedding Byzantine Fault Tolerance into Federated Learning via Virtual
+  Data-Driven Consistency Scoring Plugin
+2024-11-18 19:47:10,618 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:10,620 - module - INFO - 成功处理文章: Optimization-based Prompt Injection Attack to LLM-as-a-Judge
+2024-11-18 19:47:10,696 - module - INFO - 开始处理文章: Fused Gromov-Wasserstein Variance Decomposition with Linear Optimal
+  Transport
+2024-11-18 19:47:10,723 - module - INFO - 开始处理文章: An Ontology-based Approach Towards Traceable Behavior Specifications in
+  Automated Driving
+2024-11-18 19:47:11,611 - module - INFO - 开始处理文章: A logic for reasoning with inconsistent knowledge -- A reformulation
+  using nowadays terminology (2024)
+2024-11-18 19:47:11,613 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:11,615 - module - INFO - 成功处理文章: Measuring Non-Adversarial Reproduction of Training Data in Large
+  Language Models
+2024-11-18 19:47:11,736 - module - INFO - 开始处理文章: FengWu-W2S: A deep learning model for seamless weather-to-subseasonal
+  forecast of global atmosphere
+2024-11-18 19:47:12,128 - module - INFO - 开始处理文章: DEEP-IoT: Downlink-Enhanced Efficient-Power Internet of Things
+2024-11-18 19:47:12,441 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:12,443 - module - INFO - 成功处理文章: Supra-Laplacian Encoding for Transformer on Dynamic Graphs
+2024-11-18 19:47:12,625 - module - INFO - 开始处理文章: Agentic LLMs in the Supply Chain: Towards Autonomous Multi-Agent
+  Consensus-Seeking
+2024-11-18 19:47:12,699 - module - INFO - 开始处理文章: CART: Compositional Auto-Regressive Transformer for Image Generation
+2024-11-18 19:47:12,728 - module - INFO - 开始处理文章: Let people fail! Exploring the influence of explainable virtual and
+  robotic agents in learning-by-doing tasks
+2024-11-18 19:47:12,842 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:12,844 - module - INFO - 成功处理文章: A Low-Resolution Image is Worth 1x1 Words: Enabling Fine Image
+  Super-Resolution with Transformers and TaylorShift
+2024-11-18 19:47:13,481 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:13,483 - module - INFO - 成功处理文章: An Empirical Study on LLM-based Agents for Automated Bug Fixing
+2024-11-18 19:47:13,615 - module - INFO - 开始处理文章: The Surprising Ineffectiveness of Pre-Trained Visual Representations for
+  Model-Based Reinforcement Learning
+2024-11-18 19:47:13,616 - module - INFO - 开始处理文章: A Hard-Label Cryptanalytic Extraction of Non-Fully Connected Deep Neural
+  Networks using Side-Channel Attacks
+2024-11-18 19:47:13,739 - module - INFO - 开始处理文章: Semantics and Spatiality of Emergent Communication
+2024-11-18 19:47:14,132 - module - INFO - 开始处理文章: Increasing the Accessibility of Causal Domain Knowledge via Causal
+  Information Extraction Methods: A Case Study in the Semiconductor
+  Manufacturing Industry
+2024-11-18 19:47:14,449 - module - INFO - 开始处理文章: Imagine-2-Drive: High-Fidelity World Modeling in CARLA for Autonomous
+  Vehicles
+2024-11-18 19:47:14,731 - module - INFO - 开始处理文章: Evaluating the role of `Constitutions' for learning from AI feedback
+2024-11-18 19:47:14,847 - module - INFO - 开始处理文章: Comparison of linear and nonlinear methods for decoding selective
+  attention to speech from ear-EEG recordings
+2024-11-18 19:47:15,487 - module - INFO - 开始处理文章: Mitigating Sycophancy in Decoder-Only Transformer Architectures:
+  Synthetic Data Intervention
+2024-11-18 19:47:15,620 - module - INFO - 开始处理文章: Continuous Bayesian Model Selection for Multivariate Causal Discovery
+2024-11-18 19:47:15,620 - module - INFO - 开始处理文章: BONE: a unifying framework for Bayesian online learning in
+  non-stationary environments
+2024-11-18 19:47:15,744 - module - INFO - 开始处理文章: Causal Time-Series Synchronization for Multi-Dimensional Forecasting
+2024-11-18 19:47:16,137 - module - INFO - 开始处理文章: Do Large Language Models Truly Grasp Mathematics? An Empirical
+  Exploration From Cognitive Psychology
+2024-11-18 19:47:16,451 - module - INFO - 开始处理文章: Personalized Playback Technology: How Short Video Services Create
+  Excellent User Experience
+2024-11-18 19:47:16,849 - module - INFO - 开始处理文章: DaYu: Data-Driven Model for Geostationary Satellite Observed Cloud
+  Images Forecasting
+2024-11-18 19:47:17,625 - module - INFO - 开始处理文章: Arithmetical Binary Decision Tree Traversals
+2024-11-18 19:47:17,625 - module - INFO - 开始处理文章: Legal Evalutions and Challenges of Large Language Models
+2024-11-18 19:47:17,745 - module - INFO - 开始处理文章: Interpretable Concept-Based Memory Reasoning
+2024-11-18 19:47:18,453 - module - INFO - 开始处理文章: FGCE: Feasible Group Counterfactual Explanations for Auditing Fairness
+2024-11-18 19:47:19,628 - module - INFO - 开始处理文章: Prompting and Fine-tuning Large Language Models for Automated Code
+  Review Comment Generation
+2024-11-18 19:47:19,750 - module - INFO - 开始处理文章: On the Universal Statistical Consistency of Expansive Hyperbolic Deep
+  Convolutional Neural Networks
+2024-11-18 19:47:19,953 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:19,955 - module - INFO - 成功处理文章: Agentic LLMs in the Supply Chain: Towards Autonomous Multi-Agent
+  Consensus-Seeking
+2024-11-18 19:47:20,457 - module - INFO - 开始处理文章: Adversarial Robustness of VAEs across Intersectional Subgroups
+2024-11-18 19:47:21,144 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:21,147 - module - INFO - 成功处理文章: Evaluating the role of `Constitutions' for learning from AI feedback
+2024-11-18 19:47:21,770 - module - INFO - 开始处理文章: Energy-GNoME: A Living Database of Selected Materials for Energy
+  Applications
+2024-11-18 19:47:21,959 - module - INFO - 开始处理文章: Graph Neural Networks Do Not Always Oversmooth
+2024-11-18 19:47:22,458 - module - INFO - 开始处理文章: Memorization in Attention-only Transformers
+2024-11-18 19:47:22,576 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:22,579 - module - INFO - 成功处理文章: Mitigating Sycophancy in Decoder-Only Transformer Architectures:
+  Synthetic Data Intervention
+2024-11-18 19:47:23,149 - module - INFO - 开始处理文章: Generative Agent Simulations of 1,000 People
+2024-11-18 19:47:23,247 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:23,258 - module - INFO - 成功处理文章: DaYu: Data-Driven Model for Geostationary Satellite Observed Cloud
+  Images Forecasting
+2024-11-18 19:47:23,622 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:23,632 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:23,634 - module - INFO - 成功处理文章: Do Large Language Models Truly Grasp Mathematics? An Empirical
+  Exploration From Cognitive Psychology
+2024-11-18 19:47:23,636 - module - INFO - 成功处理文章: CART: Compositional Auto-Regressive Transformer for Image Generation
+2024-11-18 19:47:23,789 - module - INFO - 开始处理文章: Identifying Key Drivers of Heatwaves: A Novel Spatio-Temporal Framework
+  for Extreme Event Detection
+2024-11-18 19:47:23,960 - module - INFO - 开始处理文章: Dynamic Dimension Wrapping (DDW) Algorithm: A Novel Approach for
+  Efficient Cross-Dimensional Search in Dynamic Multidimensional Spaces
+2024-11-18 19:47:24,543 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:24,545 - module - INFO - 成功处理文章: Legal Evalutions and Challenges of Large Language Models
+2024-11-18 19:47:24,583 - module - INFO - 开始处理文章: Recent Advances on Machine Learning-aided DSP for Short-reach and
+  Long-haul Optical Communications
+2024-11-18 19:47:25,262 - module - INFO - 开始处理文章: Multi-Task Adversarial Variational Autoencoder for Estimating Biological
+  Brain Age with Multimodal Neuroimaging
+2024-11-18 19:47:25,640 - module - INFO - 开始处理文章: Communication Compression for Tensor Parallel LLM Inference
+2024-11-18 19:47:25,640 - module - INFO - 开始处理文章: Neural Port-Hamiltonian Models for Nonlinear Distributed Control: An
+  Unconstrained Parametrization Approach
+2024-11-18 19:47:25,794 - module - INFO - 开始处理文章: Multi-View Symbolic Regression
+2024-11-18 19:47:25,963 - module - INFO - 开始处理文章: AI and the Future of Work in Africa White Paper
+2024-11-18 19:47:26,548 - module - INFO - 开始处理文章: PFML: Self-Supervised Learning of Time-Series Data Without
+  Representation Collapse
+2024-11-18 19:47:26,583 - module - INFO - 开始处理文章: Graph Neural Networks and Differential Equations: A hybrid approach for
+  data assimilation of fluid flows
+2024-11-18 19:47:26,865 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:26,867 - module - INFO - 成功处理文章: Memorization in Attention-only Transformers
+2024-11-18 19:47:27,094 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:27,095 - module - INFO - 成功处理文章: Prompting and Fine-tuning Large Language Models for Automated Code
+  Review Comment Generation
+2024-11-18 19:47:27,265 - module - INFO - 开始处理文章: Adapting the Biological SSVEP Response to Artificial Neural Networks
+2024-11-18 19:47:27,644 - module - INFO - 开始处理文章: Automated Segmentation of Ischemic Stroke Lesions in Non-Contrast
+  Computed Tomography Images for Enhanced Treatment and Prognosis
+2024-11-18 19:47:27,798 - module - INFO - 开始处理文章: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with
+  Watermarking
+2024-11-18 19:47:27,817 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:27,819 - module - INFO - 成功处理文章: Generative Agent Simulations of 1,000 People
+2024-11-18 19:47:27,967 - module - INFO - 开始处理文章: Towards Efficient and Optimal Covariance-Adaptive Algorithms for
+  Combinatorial Semi-Bandits
+2024-11-18 19:47:28,549 - module - INFO - 开始处理文章: Real-Time AI-Driven People Tracking and Counting Using Overhead Cameras
+2024-11-18 19:47:28,588 - module - INFO - 开始处理文章: Evidential Federated Learning for Skin Lesion Image Classification
+2024-11-18 19:47:28,867 - module - INFO - 开始处理文章: Calibration of ordinal regression networks
+2024-11-18 19:47:29,099 - module - INFO - 开始处理文章: Dockformer: A transformer-based molecular docking paradigm for
+  large-scale virtual screening
+2024-11-18 19:47:29,269 - module - INFO - 开始处理文章: Adaptive Physics-Guided Neural Network
+2024-11-18 19:47:29,551 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:29,553 - module - INFO - 成功处理文章: Communication Compression for Tensor Parallel LLM Inference
+2024-11-18 19:47:29,648 - module - INFO - 开始处理文章: Federated Domain Generalization via Prompt Learning and Aggregation
+2024-11-18 19:47:29,824 - module - INFO - 开始处理文章: CMATH: Cross-Modality Augmented Transformer with Hierarchical
+  Variational Distillation for Multimodal Emotion Recognition in Conversation
+2024-11-18 19:47:29,968 - module - INFO - 开始处理文章: Unsupervised Congestion Status Identification Using LMP Data
+2024-11-18 19:47:30,549 - module - INFO - 开始处理文章: KuaiFormer: Transformer-Based Retrieval at Kuaishou
+2024-11-18 19:47:30,870 - module - INFO - 开始处理文章: Towards unearthing neglected climate innovations from scientific
+  literature using Large Language Models
+2024-11-18 19:47:31,239 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:31,242 - module - INFO - 成功处理文章: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with
+  Watermarking
+2024-11-18 19:47:31,270 - module - INFO - 开始处理文章: That Chip Has Sailed: A Critique of Unfounded Skepticism Around AI for
+  Chip Design
+2024-11-18 19:47:31,558 - module - INFO - 开始处理文章: Jal Anveshak: Prediction of fishing zones using fine-tuned LlaMa 2
+2024-11-18 19:47:31,651 - module - INFO - 开始处理文章: Physics-informed neural networks need a physicist to be accurate: the
+  case of mass and heat transport in Fischer-Tropsch catalyst particles
+2024-11-18 19:47:31,973 - module - INFO - 开始处理文章: A Dual Adaptive Assignment Approach for Robust Graph-Based Clustering
+2024-11-18 19:47:32,107 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:32,109 - module - INFO - 成功处理文章: Dockformer: A transformer-based molecular docking paradigm for
+  large-scale virtual screening
+2024-11-18 19:47:33,199 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:33,210 - module - INFO - 成功处理文章: Evidential Federated Learning for Skin Lesion Image Classification
+2024-11-18 19:47:33,247 - module - INFO - 开始处理文章: A Low-rank Matching Attention based Cross-modal Feature Fusion Method
+  for Conversational Emotion Recognition
+2024-11-18 19:47:33,274 - module - INFO - 开始处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:47:33,586 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:33,588 - module - INFO - 成功处理文章: CMATH: Cross-Modality Augmented Transformer with Hierarchical
+  Variational Distillation for Multimodal Emotion Recognition in Conversation
+2024-11-18 19:47:33,656 - module - INFO - 开始处理文章: DiffLoRA: Generating Personalized Low-Rank Adaptation Weights with
+  Diffusion
+2024-11-18 19:47:33,975 - module - INFO - 开始处理文章: Rethinking Normalization Strategies and Convolutional Kernels for
+  Multimodal Image Fusion
+2024-11-18 19:47:33,978 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:33,979 - module - INFO - 成功处理文章: Towards unearthing neglected climate innovations from scientific
+  literature using Large Language Models
+2024-11-18 19:47:34,112 - module - INFO - 开始处理文章: EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with
+  Audio Adversarial Perturbations
+2024-11-18 19:47:34,207 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:34,210 - module - INFO - 成功处理文章: KuaiFormer: Transformer-Based Retrieval at Kuaishou
+2024-11-18 19:47:35,215 - module - INFO - 开始处理文章: VMID: A Multimodal Fusion LLM Framework for Detecting and Identifying
+  Misinformation of Short Videos
+2024-11-18 19:47:35,591 - module - INFO - 开始处理文章: Approximate Probabilistic Inference for Time-Series Data A Robust Latent
+  Gaussian Model With Temporal Awareness
+2024-11-18 19:47:35,661 - module - INFO - 开始处理文章: MOT\_FCG++: Enhanced Representation of Motion and Appearance Features
+2024-11-18 19:47:35,977 - module - INFO - 开始处理文章: XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing
+  Attack Detection
+2024-11-18 19:47:35,984 - module - INFO - 开始处理文章: Flow Priors for Linear Inverse Problems via Iterative Corrupted
+  Trajectory Matching
+2024-11-18 19:47:36,117 - module - INFO - 开始处理文章: Model Inversion Attacks: A Survey of Approaches and Countermeasures
+2024-11-18 19:47:36,215 - module - INFO - 开始处理文章: Bridging The Gap between Low-rank and Orthogonal Adaptation via
+  Householder Reflection Adaptation
+2024-11-18 19:47:37,327 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:37,329 - module - INFO - 成功处理文章: A Low-rank Matching Attention based Cross-modal Feature Fusion Method
+  for Conversational Emotion Recognition
+2024-11-18 19:47:37,595 - module - INFO - 开始处理文章: Towards Utilising a Range of Neural Activations for Comprehending
+  Representational Associations
+2024-11-18 19:47:37,665 - module - INFO - 开始处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:47:37,797 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:37,800 - module - INFO - 成功处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:47:37,984 - module - INFO - 开始处理文章: MicroCrackAttentionNeXt: Advancing Microcrack Detection in Wave Field
+  Analysis Using Deep Neural Networks through Feature Visualization
+2024-11-18 19:47:38,118 - module - INFO - 开始处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:47:39,333 - module - INFO - 开始处理文章: Efficient Depth Estimation for Unstable Stereo Camera Systems on AR
+  Glasses
+2024-11-18 19:47:39,376 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:39,422 - module - INFO - 成功处理文章: VMID: A Multimodal Fusion LLM Framework for Detecting and Identifying
+  Misinformation of Short Videos
+2024-11-18 19:47:39,597 - module - INFO - 开始处理文章: DeepMedcast: A Deep Learning Method for Generating Intermediate Weather
+  Forecasts among Multiple NWP Models
+2024-11-18 19:47:39,803 - module - INFO - 开始处理文章: Graph-based Complexity for Causal Effect by Empirical Plug-in
+2024-11-18 19:47:39,986 - module - INFO - 开始处理文章: Orca: Enhancing Role-Playing Abilities of Large Language Models by
+  Integrating Personality Traits
+2024-11-18 19:47:40,447 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:40,449 - module - INFO - 成功处理文章: XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing
+  Attack Detection
+2024-11-18 19:47:41,336 - module - INFO - 开始处理文章: EyeDiff: text-to-image diffusion model improves rare eye disease
+  diagnosis
+2024-11-18 19:47:41,425 - module - INFO - 开始处理文章: Provably Unlearnable Data Examples
+2024-11-18 19:47:41,600 - module - INFO - 开始处理文章: VLEU: a Method for Automatic Evaluation for Generalizability of
+  Text-to-Image Models
+2024-11-18 19:47:41,807 - module - INFO - 开始处理文章: DuSEGO: Dual Second-order Equivariant Graph Ordinary Differential
+  Equation
+2024-11-18 19:47:41,972 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:41,974 - module - INFO - 成功处理文章: Jal Anveshak: Prediction of fishing zones using fine-tuned LlaMa 2
+2024-11-18 19:47:42,450 - module - INFO - 开始处理文章: Adaptive Non-Uniform Timestep Sampling for Diffusion Model Training
+2024-11-18 19:47:43,341 - module - INFO - 开始处理文章: Building 6G Radio Foundation Models with Transformer Architectures
+2024-11-18 19:47:43,427 - module - INFO - 开始处理文章: Evaluating and Enhancing Large Language Models for Conversational
+  Reasoning on Knowledge Graphs
+2024-11-18 19:47:43,812 - module - INFO - 开始处理文章: Unlocking Transfer Learning for Open-World Few-Shot Recognition
+2024-11-18 19:47:43,977 - module - INFO - 开始处理文章: MANTIS: Interleaved Multi-Image Instruction Tuning
+2024-11-18 19:47:44,455 - module - INFO - 开始处理文章: Fully Dynamic Adversarially Robust Correlation Clustering in
+  Polylogarithmic Update Time
+2024-11-18 19:47:45,813 - module - INFO - 开始处理文章: Confidence-aware Denoised Fine-tuning of Off-the-shelf Models for
+  Certified Robustness
+2024-11-18 19:47:45,982 - module - INFO - 开始处理文章: Establishing and Evaluating Trustworthy AI: Overview and Research
+  Challenges
+2024-11-18 19:47:46,459 - module - INFO - 开始处理文章: Large Language Models as User-Agents for Evaluating
+  Task-Oriented-Dialogue Systems
+2024-11-18 19:47:46,713 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:46,721 - module - INFO - 成功处理文章: VLEU: a Method for Automatic Evaluation for Generalizability of
+  Text-to-Image Models
+2024-11-18 19:47:46,949 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:46,951 - module - INFO - 成功处理文章: Bridging The Gap between Low-rank and Orthogonal Adaptation via
+  Householder Reflection Adaptation
+2024-11-18 19:47:47,814 - module - INFO - 开始处理文章: Steering AI-Driven Personalization of Scientific Text for General
+  Audiences
+2024-11-18 19:47:47,872 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:47,874 - module - INFO - 成功处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:47:47,986 - module - INFO - 开始处理文章: Seeing Clearly by Layer Two: Enhancing Attention Heads to Alleviate
+  Hallucination in LVLMs
+2024-11-18 19:47:48,724 - module - INFO - 开始处理文章: HMAFlow: Learning More Accurate Optical Flow via Hierarchical Motion
+  Field Alignment
+2024-11-18 19:47:48,952 - module - INFO - 开始处理文章: Dense ReLU Neural Networks for Temporal-spatial Model
+2024-11-18 19:47:49,875 - module - INFO - 开始处理文章: Instruction-Guided Editing Controls for Images and Multimedia: A Survey
+  in LLM era
+2024-11-18 19:47:50,075 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:50,077 - module - INFO - 成功处理文章: Building 6G Radio Foundation Models with Transformer Architectures
+2024-11-18 19:47:50,125 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:50,127 - module - INFO - 成功处理文章: Orca: Enhancing Role-Playing Abilities of Large Language Models by
+  Integrating Personality Traits
+2024-11-18 19:47:50,729 - module - INFO - 开始处理文章: GGAvatar: Reconstructing Garment-Separated 3D Gaussian Splatting Avatars
+  from Monocular Video
+2024-11-18 19:47:50,956 - module - INFO - 开始处理文章: AdapShare: An RL-Based Dynamic Spectrum Sharing Solution for O-RAN
+2024-11-18 19:47:51,234 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:51,235 - module - INFO - 成功处理文章: Evaluating and Enhancing Large Language Models for Conversational
+  Reasoning on Knowledge Graphs
+2024-11-18 19:47:51,846 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:51,847 - module - INFO - 成功处理文章: Seeing Clearly by Layer Two: Enhancing Attention Heads to Alleviate
+  Hallucination in LVLMs
+2024-11-18 19:47:52,082 - module - INFO - 开始处理文章: SC3D: Label-Efficient Outdoor 3D Object Detection via Single Click
+  Annotation
+2024-11-18 19:47:52,133 - module - INFO - 开始处理文章: TEESlice: Protecting Sensitive Neural Network Models in Trusted
+  Execution Environments When Attackers have Pre-Trained Models
+2024-11-18 19:47:52,732 - module - INFO - 开始处理文章: meds_reader: A fast and efficient EHR processing library
+2024-11-18 19:47:52,961 - module - INFO - 开始处理文章: Networking Systems for Video Anomaly Detection: A Tutorial and Survey
+2024-11-18 19:47:53,051 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:53,053 - module - INFO - 成功处理文章: Large Language Models as User-Agents for Evaluating
+  Task-Oriented-Dialogue Systems
+2024-11-18 19:47:53,060 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:53,064 - module - INFO - 成功处理文章: Steering AI-Driven Personalization of Scientific Text for General
+  Audiences
+2024-11-18 19:47:53,240 - module - INFO - 开始处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:47:53,504 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:53,506 - module - INFO - 成功处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:47:53,849 - module - INFO - 开始处理文章: Adaptive Transfer Clustering: A Unified Framework
+2024-11-18 19:47:54,086 - module - INFO - 开始处理文章: A Dynamic LLM-Powered Agent Network for Task-Oriented Agent
+  Collaboration
+2024-11-18 19:47:54,112 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:54,114 - module - INFO - 成功处理文章: Instruction-Guided Editing Controls for Images and Multimedia: A Survey
+  in LLM era
+2024-11-18 19:47:54,733 - module - INFO - 开始处理文章: BAdam: A Memory Efficient Full Parameter Optimization Method for Large
+  Language Models
+2024-11-18 19:47:54,965 - module - INFO - 开始处理文章: JRadiEvo: A Japanese Radiology Report Generation Model Enhanced by
+  Evolutionary Optimization of Model Merging
+2024-11-18 19:47:55,057 - module - INFO - 开始处理文章: Is Precise Recovery Necessary? A Task-Oriented Imputation Approach for
+  Time Series Forecasting on Variable Subset
+2024-11-18 19:47:55,066 - module - INFO - 开始处理文章: Effective Generative AI: The Human-Algorithm Centaur
+2024-11-18 19:47:55,242 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:55,245 - module - INFO - 成功处理文章: TEESlice: Protecting Sensitive Neural Network Models in Trusted
+  Execution Environments When Attackers have Pre-Trained Models
+2024-11-18 19:47:55,511 - module - INFO - 开始处理文章: Motion-Grounded Video Reasoning: Understanding and Perceiving Motion at
+  Pixel Level
+2024-11-18 19:47:55,850 - module - INFO - 开始处理文章: Efficient Pauli channel estimation with logarithmic quantum memory
+2024-11-18 19:47:56,116 - module - INFO - 开始处理文章: ORLM: A Customizable Framework in Training Large Models for Automated
+  Optimization Modeling
+2024-11-18 19:47:57,061 - module - INFO - 开始处理文章: Physics-informed Machine Learning for Battery Pack Thermal Management
+2024-11-18 19:47:57,248 - module - INFO - 开始处理文章: Stabilizer bootstrapping: A recipe for efficient agnostic tomography and
+  magic estimation
+2024-11-18 19:47:57,825 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:57,826 - module - INFO - 成功处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:47:57,854 - module - INFO - 开始处理文章: AMXFP4: Taming Activation Outliers with Asymmetric Microscaling
+  Floating-Point for 4-bit LLM Inference
+2024-11-18 19:47:58,300 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:58,302 - module - INFO - 成功处理文章: A Dynamic LLM-Powered Agent Network for Task-Oriented Agent
+  Collaboration
+2024-11-18 19:47:58,431 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:58,434 - module - INFO - 成功处理文章: Effective Generative AI: The Human-Algorithm Centaur
+2024-11-18 19:47:58,919 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:47:58,921 - module - INFO - 成功处理文章: JRadiEvo: A Japanese Radiology Report Generation Model Enhanced by
+  Evolutionary Optimization of Model Merging
+2024-11-18 19:47:59,066 - module - INFO - 开始处理文章: A Multi-Granularity Supervised Contrastive Framework for Remaining
+  Useful Life Prediction of Aero-engines
+2024-11-18 19:47:59,251 - module - INFO - 开始处理文章: Self-Supervised Learning of Grasping Arbitrary Objects On-the-Move
+2024-11-18 19:47:59,829 - module - INFO - 开始处理文章: CleanerCLIP: Fine-grained Counterfactual Semantic Augmentation for
+  Backdoor Defense in Contrastive Learning
+2024-11-18 19:48:00,305 - module - INFO - 开始处理文章: Statistical Analysis of Policy Space Compression Problem
+2024-11-18 19:48:00,437 - module - INFO - 开始处理文章: Revealing the Evolution of Order in Materials Microstructures Using
+  Multi-Modal Computer Vision
+2024-11-18 19:48:00,924 - module - INFO - 开始处理文章: Deep learning robotics using self-supervised spatial differentiation
+  drive autonomous contact-based semiconductor characterization
+2024-11-18 19:48:01,071 - module - INFO - 开始处理文章: Off-Dynamics Reinforcement Learning via Domain Adaptation and Reward
+  Augmented Imitation
+2024-11-18 19:48:01,255 - module - INFO - 开始处理文章: Automated Clinical Data Extraction with Knowledge Conditioned LLMs
+2024-11-18 19:48:01,546 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:01,548 - module - INFO - 成功处理文章: ORLM: A Customizable Framework in Training Large Models for Automated
+  Optimization Modeling
+2024-11-18 19:48:01,596 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:01,598 - module - INFO - 成功处理文章: BAdam: A Memory Efficient Full Parameter Optimization Method for Large
+  Language Models
+2024-11-18 19:48:02,309 - module - INFO - 开始处理文章: A Hybrid Artificial Intelligence System for Automated EEG Background
+  Analysis and Report Generation
+2024-11-18 19:48:02,442 - module - INFO - 开始处理文章: Semantic Segmentation by Semantic Proportions
+2024-11-18 19:48:02,930 - module - INFO - 开始处理文章: DeepOSets: Non-Autoregressive In-Context Learning of Supervised Learning
+  Operators
+2024-11-18 19:48:02,956 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:02,958 - module - INFO - 成功处理文章: AMXFP4: Taming Activation Outliers with Asymmetric Microscaling
+  Floating-Point for 4-bit LLM Inference
+2024-11-18 19:48:03,075 - module - INFO - 开始处理文章: Adversarial Environment Design via Regret-Guided Diffusion Models
+2024-11-18 19:48:03,551 - module - INFO - 开始处理文章: Mitigating Gradient Overlap in Deep Residual Networks with Gradient
+  Normalization for Improved Non-Convex Optimization
+2024-11-18 19:48:03,599 - module - INFO - 开始处理文章: InvestESG: A multi-agent reinforcement learning benchmark for studying
+  climate investment as a social dilemma
+2024-11-18 19:48:04,447 - module - INFO - 开始处理文章: EHRMamba: Towards Generalizable and Scalable Foundation Models for
+  Electronic Health Records
+2024-11-18 19:48:04,665 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:04,667 - module - INFO - 成功处理文章: CleanerCLIP: Fine-grained Counterfactual Semantic Augmentation for
+  Backdoor Defense in Contrastive Learning
+2024-11-18 19:48:04,961 - module - INFO - 开始处理文章: Fair Secretaries with Unfair Predictions
+2024-11-18 19:48:05,054 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:05,055 - module - INFO - 成功处理文章: Automated Clinical Data Extraction with Knowledge Conditioned LLMs
+2024-11-18 19:48:05,078 - module - INFO - 开始处理文章: KULCQ: An Unsupervised Keyword-based Utterance Level Clustering Quality
+  Metric
+2024-11-18 19:48:05,555 - module - INFO - 开始处理文章: InterFormer: Towards Effective Heterogeneous Interaction Learning for
+  Click-Through Rate Prediction
+2024-11-18 19:48:05,603 - module - INFO - 开始处理文章: Demystifying Large Language Models for Medicine: A Primer
+2024-11-18 19:48:06,670 - module - INFO - 开始处理文章: ConSmax: Hardware-Friendly Alternative Softmax with Learnable Parameters
+2024-11-18 19:48:06,965 - module - INFO - 开始处理文章: SymbolFit: Automatic Parametric Modeling with Symbolic Regression
+2024-11-18 19:48:07,059 - module - INFO - 开始处理文章: Enhancing Diffusion Posterior Sampling for Inverse Problems by
+  Integrating Crafted Measurements
+2024-11-18 19:48:07,080 - module - INFO - 开始处理文章: From Isolation to Collaboration: Federated Class-Heterogeneous Learning
+  for Chest X-Ray Classification
+2024-11-18 19:48:07,328 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:07,332 - module - INFO - 成功处理文章: A Hybrid Artificial Intelligence System for Automated EEG Background
+  Analysis and Report Generation
+2024-11-18 19:48:07,353 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:07,356 - module - ERROR - JSON解析失败: Motion-Grounded Video Reasoning: Understanding and Perceiving Motion at
+  Pixel Level, 错误: Extra data: line 1 column 2 (char 1)
+2024-11-18 19:48:07,559 - module - INFO - 开始处理文章: Mitigating Hallucination in Multimodal Large Language Model via
+  Hallucination-targeted Direct Preference Optimization
+2024-11-18 19:48:08,711 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:08,713 - module - INFO - 成功处理文章: EHRMamba: Towards Generalizable and Scalable Foundation Models for
+  Electronic Health Records
+2024-11-18 19:48:08,968 - module - INFO - 开始处理文章: Perceptual implications of simplifying geometrical acoustics models for
+  Ambisonics-based binaural reverberation
+2024-11-18 19:48:09,083 - module - INFO - 开始处理文章: A Low-Resolution Image is Worth 1x1 Words: Enabling Fine Image
+  Super-Resolution with Transformers and TaylorShift
+2024-11-18 19:48:09,335 - module - INFO - 开始处理文章: Comparison of linear and nonlinear methods for decoding selective
+  attention to speech from ear-EEG recordings
+2024-11-18 19:48:09,357 - module - INFO - 开始处理文章: Personalized Playback Technology: How Short Video Services Create
+  Excellent User Experience
+2024-11-18 19:48:10,027 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:10,087 - module - ERROR - JSON解析失败: DeepOSets: Non-Autoregressive In-Context Learning of Supervised Learning
+  Operators, 错误: Expecting value: line 1 column 1 (char 0)
+2024-11-18 19:48:10,718 - module - INFO - 开始处理文章: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with
+  Watermarking
+2024-11-18 19:48:10,969 - module - INFO - 开始处理文章: CMATH: Cross-Modality Augmented Transformer with Hierarchical
+  Variational Distillation for Multimodal Emotion Recognition in Conversation
+2024-11-18 19:48:11,039 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:11,040 - module - INFO - 成功处理文章: Mitigating Hallucination in Multimodal Large Language Model via
+  Hallucination-targeted Direct Preference Optimization
+2024-11-18 19:48:11,332 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:11,335 - module - INFO - 开始处理文章: A Low-rank Matching Attention based Cross-modal Feature Fusion Method
+  for Conversational Emotion Recognition
+2024-11-18 19:48:11,374 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:11,375 - module - INFO - 开始处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:48:11,376 - module - INFO - 成功处理文章: Enhancing Diffusion Posterior Sampling for Inverse Problems by
+  Integrating Crafted Measurements
+2024-11-18 19:48:11,377 - module - INFO - 成功处理文章: Demystifying Large Language Models for Medicine: A Primer
+2024-11-18 19:48:12,091 - module - INFO - 开始处理文章: EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with
+  Audio Adversarial Perturbations
+2024-11-18 19:48:13,044 - module - INFO - 开始处理文章: XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing
+  Attack Detection
+2024-11-18 19:48:13,382 - module - INFO - 开始处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:48:13,382 - module - INFO - 开始处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:48:13,822 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:13,823 - module - INFO - 成功处理文章: A Low-Resolution Image is Worth 1x1 Words: Enabling Fine Image
+  Super-Resolution with Transformers and TaylorShift
+2024-11-18 19:48:14,094 - module - INFO - 开始处理文章: Instruction-Guided Editing Controls for Images and Multimedia: A Survey
+  in LLM era
+2024-11-18 19:48:15,342 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:15,344 - module - INFO - 成功处理文章: CMATH: Cross-Modality Augmented Transformer with Hierarchical
+  Variational Distillation for Multimodal Emotion Recognition in Conversation
+2024-11-18 19:48:15,579 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:15,580 - module - INFO - 成功处理文章: ConSmax: Hardware-Friendly Alternative Softmax with Learnable Parameters
+2024-11-18 19:48:15,756 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:15,758 - module - INFO - 成功处理文章: A Low-rank Matching Attention based Cross-modal Feature Fusion Method
+  for Conversational Emotion Recognition
+2024-11-18 19:48:15,825 - module - INFO - 开始处理文章: GGAvatar: Reconstructing Garment-Separated 3D Gaussian Splatting Avatars
+  from Monocular Video
+2024-11-18 19:48:17,344 - module - INFO - 开始处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:48:17,582 - module - INFO - 开始处理文章: VeriGraph: Scene Graphs for Execution Verifiable Robot Planning
+2024-11-18 19:48:17,761 - module - INFO - 开始处理文章: Enhancing the Reasoning Ability of Multimodal Large Language Models via
+  Mixed Preference Optimization
+2024-11-18 19:48:17,830 - module - INFO - 开始处理文章: Temporal Patterns of Multiple Long-Term Conditions in Individuals with
+  Intellectual Disability Living in Wales: An Unsupervised Clustering Approach
+  to Disease Trajectories
+2024-11-18 19:48:18,697 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:18,699 - module - INFO - 成功处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:48:19,079 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:19,081 - module - INFO - 成功处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:48:19,833 - module - INFO - 开始处理文章: MARS: Unleashing the Power of Variance Reduction for Training Large
+  Models
+2024-11-18 19:48:20,388 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:20,390 - module - INFO - 成功处理文章: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with
+  Watermarking
+2024-11-18 19:48:20,704 - module - INFO - 开始处理文章: Learning Diffusion Priors from Observations by Expectation Maximization
+2024-11-18 19:48:21,082 - module - INFO - 开始处理文章: Mitigating Hallucination in Multimodal Large Language Model via
+  Hallucination-targeted Direct Preference Optimization
+2024-11-18 19:48:21,420 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:21,422 - module - INFO - 成功处理文章: Instruction-Guided Editing Controls for Images and Multimedia: A Survey
+  in LLM era
+2024-11-18 19:48:22,395 - module - INFO - 开始处理文章: The Spatial Complexity of Optical Computing and How to Reduce It
+2024-11-18 19:48:22,708 - module - INFO - 开始处理文章: Mitigating Parameter Degeneracy using Joint Conditional Diffusion Model
+  for WECC Composite Load Model in Power Systems
+2024-11-18 19:48:22,944 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:22,946 - module - INFO - 成功处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:48:23,302 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:23,304 - module - INFO - 成功处理文章: Enhancing the Reasoning Ability of Multimodal Large Language Models via
+  Mixed Preference Optimization
+2024-11-18 19:48:23,426 - module - INFO - 开始处理文章: Private Counterfactual Retrieval With Immutable Features
+2024-11-18 19:48:24,086 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:24,089 - module - INFO - 成功处理文章: XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing
+  Attack Detection
+2024-11-18 19:48:24,399 - module - INFO - 开始处理文章: Back to Supervision: Boosting Word Boundary Detection through Frame
+  Classification
+2024-11-18 19:48:24,713 - module - INFO - 开始处理文章: Evaluating Creativity and Deception in Large Language Models: A
+  Simulation Framework for Multi-Agent Balderdash
+2024-11-18 19:48:24,893 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:24,896 - module - INFO - 成功处理文章: VeriGraph: Scene Graphs for Execution Verifiable Robot Planning
+2024-11-18 19:48:24,951 - module - INFO - 开始处理文章: Multiscale Dubuc: A New Similarity Measure for Time Series
+2024-11-18 19:48:25,139 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:25,141 - module - INFO - 成功处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:48:25,308 - module - INFO - 开始处理文章: Demo: Multi-Modal Seizure Prediction System
+2024-11-18 19:48:25,397 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:25,399 - module - INFO - 成功处理文章: MARS: Unleashing the Power of Variance Reduction for Training Large
+  Models
+2024-11-18 19:48:25,429 - module - INFO - 开始处理文章: Towards Automatic Evaluation of Task-Oriented Dialogue Flows
+2024-11-18 19:48:25,830 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:25,833 - module - INFO - 成功处理文章: Mitigating Hallucination in Multimodal Large Language Model via
+  Hallucination-targeted Direct Preference Optimization
+2024-11-18 19:48:26,091 - module - INFO - 开始处理文章: Large Language Model-Based Interpretable Machine Learning Control in
+  Building Energy Systems
+2024-11-18 19:48:26,901 - module - INFO - 开始处理文章: Llama Guard 3 Vision: Safeguarding Human-AI Image Understanding
+  Conversations
+2024-11-18 19:48:26,955 - module - INFO - 开始处理文章: Swarm Characteristics Classification Using Neural Networks
+2024-11-18 19:48:27,145 - module - INFO - 开始处理文章: Repurposing Stable Diffusion Attention for Training-Free Unsupervised
+  Interactive Segmentation
+2024-11-18 19:48:27,313 - module - INFO - 开始处理文章: Advancing Building Energy Modeling with Large Language Models:
+  Exploration and Case Studies
+2024-11-18 19:48:27,403 - module - INFO - 开始处理文章: Features that Make a Difference: Leveraging Gradients for Improved
+  Dictionary Learning
+2024-11-18 19:48:27,430 - module - INFO - 开始处理文章: Coniferest: a complete active anomaly detection framework
+2024-11-18 19:48:27,834 - module - INFO - 开始处理文章: KPC-cF: Aspect-Based Sentiment Analysis via Implicit-Feature Alignment
+  with Corpus Filtering
+2024-11-18 19:48:28,018 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:28,020 - module - INFO - 成功处理文章: Back to Supervision: Boosting Word Boundary Detection through Frame
+  Classification
+2024-11-18 19:48:28,959 - module - INFO - 开始处理文章: Recurrent Neural Goodness-of-Fit Test for Time Series
+2024-11-18 19:48:29,143 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:29,144 - module - INFO - 成功处理文章: Evaluating Creativity and Deception in Large Language Models: A
+  Simulation Framework for Multi-Agent Balderdash
+2024-11-18 19:48:29,147 - module - INFO - 开始处理文章: Exploring GPU-to-GPU Communication: Insights into Supercomputer
+  Interconnects
+2024-11-18 19:48:29,404 - module - INFO - 开始处理文章: Deep Learning for Micro-Scale Crack Detection on Imbalanced Datasets
+  Using Key Point Localization
+2024-11-18 19:48:29,433 - module - INFO - 开始处理文章: Low-Latency Task-Oriented Communications with Multi-Round, Multi-Task
+  Deep Learning
+2024-11-18 19:48:29,480 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:29,484 - module - INFO - 成功处理文章: Large Language Model-Based Interpretable Machine Learning Control in
+  Building Energy Systems
+2024-11-18 19:48:29,835 - module - INFO - 开始处理文章: Framework for Co-distillation Driven Federated Learning to Address Class
+  Imbalance in Healthcare
+2024-11-18 19:48:30,025 - module - INFO - 开始处理文章: A Survey of Event Causality Identification: Principles, Taxonomy,
+  Challenges, and Assessment
+2024-11-18 19:48:30,962 - module - INFO - 开始处理文章: Towards High-Fidelity 3D Portrait Generation with Rich Details by
+  Cross-View Prior-Aware Diffusion
+2024-11-18 19:48:30,983 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:30,985 - module - INFO - 成功处理文章: Llama Guard 3 Vision: Safeguarding Human-AI Image Understanding
+  Conversations
+2024-11-18 19:48:31,148 - module - INFO - 开始处理文章: Risk Sources and Risk Management Measures in Support of Standards for
+  General-Purpose AI Systems
+2024-11-18 19:48:31,149 - module - INFO - 开始处理文章: Mechanisms of Generative Image-to-Image Translation Networks
+2024-11-18 19:48:31,166 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:31,169 - module - INFO - 成功处理文章: Advancing Building Energy Modeling with Large Language Models:
+  Exploration and Case Studies
+2024-11-18 19:48:31,408 - module - INFO - 开始处理文章: Continual Adversarial Reinforcement Learning (CARL) of False Data
+  Injection detection: forgetting and explainability
+2024-11-18 19:48:31,436 - module - INFO - 开始处理文章: Forming Auxiliary High-confident Instance-level Loss to Promote Learning
+  from Label Proportions
+2024-11-18 19:48:31,488 - module - INFO - 开始处理文章: Mitigating the Linguistic Gap with Phonemic Representations for Robust
+  Cross-lingual Transfer
+2024-11-18 19:48:31,838 - module - INFO - 开始处理文章: Provocation: Who benefits from "inclusion" in Generative AI?
+2024-11-18 19:48:32,030 - module - INFO - 开始处理文章: Weakly-Supervised Multimodal Learning on MIMIC-CXR
+2024-11-18 19:48:32,967 - module - INFO - 开始处理文章: Training Deep 3D Convolutional Neural Networks to Extract BSM Physics
+  Parameters Directly from HEP Data: a Proof-of-Concept Study Using Monte Carlo
+  Simulations
+2024-11-18 19:48:32,987 - module - INFO - 开始处理文章: The Silicon Ceiling: Auditing GPT's Race and Gender Biases in Hiring
+2024-11-18 19:48:33,151 - module - INFO - 开始处理文章: Comparative Analysis of Machine Learning Approaches for Bone Age
+  Assessment: A Comprehensive Study on Three Distinct Models
+2024-11-18 19:48:33,151 - module - INFO - 开始处理文章: Domain Adaptation-based Edge Computing for Cross-Conditions Fault
+  Diagnosis
+2024-11-18 19:48:33,173 - module - INFO - 开始处理文章: On the Cost of Model-Serving Frameworks: An Experimental Evaluation
+2024-11-18 19:48:33,413 - module - INFO - 开始处理文章: Safe Text-to-Image Generation: Simply Sanitize the Prompt Embedding
+2024-11-18 19:48:33,438 - module - INFO - 开始处理文章: Emotion Detection in Reddit: Comparative Study of Machine Learning and
+  Deep Learning Techniques
+2024-11-18 19:48:33,492 - module - INFO - 开始处理文章: Bitcoin Research with a Transaction Graph Dataset
+2024-11-18 19:48:33,842 - module - INFO - 开始处理文章: The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer
+  Use
+2024-11-18 19:48:34,034 - module - INFO - 开始处理文章: Open LLMs are Necessary for Current Private Adaptations and Outperform
+  their Closed Alternatives
+2024-11-18 19:48:34,968 - module - INFO - 开始处理文章: CE-SSL: Computation-Efficient Semi-Supervised Learning for ECG-based
+  Cardiovascular Diseases Detection
+2024-11-18 19:48:35,155 - module - INFO - 开始处理文章: Label Cluster Chains for Multi-Label Classification
+2024-11-18 19:48:35,155 - module - INFO - 开始处理文章: Improved Canonicalization for Model Agnostic Equivariance
+2024-11-18 19:48:35,175 - module - INFO - 开始处理文章: Inconsistencies In Consistency Models: Better ODE Solving Does Not Imply
+  Better Samples
+2024-11-18 19:48:35,416 - module - INFO - 开始处理文章: A Realistic Collimated X-Ray Image Simulation Pipeline
+2024-11-18 19:48:35,443 - module - INFO - 开始处理文章: ThermoHands: A Benchmark for 3D Hand Pose Estimation from Egocentric
+  Thermal Images
+2024-11-18 19:48:35,496 - module - INFO - 开始处理文章: Unveiling Topological Structures in Text: A Comprehensive Survey of
+  Topological Data Analysis Applications in NLP
+2024-11-18 19:48:35,846 - module - INFO - 开始处理文章: RETR: Multi-View Radar Detection Transformer for Indoor Perception
+2024-11-18 19:48:36,969 - module - INFO - 开始处理文章: The ParClusterers Benchmark Suite (PCBS): A Fine-Grained Analysis of
+  Scalable Graph Clustering
+2024-11-18 19:48:37,158 - module - INFO - 开始处理文章: Unlocking Real-Time Fluorescence Lifetime Imaging: Multi-Pixel
+  Parallelism for FPGA-Accelerated Processing
+2024-11-18 19:48:37,158 - module - INFO - 开始处理文章: Disclosure of AI-Generated News Increases Engagement but Does Not Reduce
+  Aversion, Despite Positive Quality Ratings
+2024-11-18 19:48:37,176 - module - INFO - 开始处理文章: Systolic Arrays and Structured Pruning Co-design for Efficient
+  Transformers in Edge Systems
+2024-11-18 19:48:37,416 - module - INFO - 开始处理文章: Harnessing Machine Learning for Single-Shot Measurement of Free Electron
+  Laser Pulse Power
+2024-11-18 19:48:37,499 - module - INFO - 开始处理文章: Multidimensional Byte Pair Encoding: Shortened Sequences for Improved
+  Visual Data Generation
+2024-11-18 19:48:38,974 - module - INFO - 开始处理文章: Lateral Movement Detection via Time-aware Subgraph Classification on
+  Authentication Logs
+2024-11-18 19:48:39,163 - module - INFO - 开始处理文章: Scaling Law for Post-training after Model Pruning
+2024-11-18 19:48:39,163 - module - INFO - 开始处理文章: Towards Sample-Efficiency and Generalization of Transfer and Inverse
+  Reinforcement Learning: A Comprehensive Literature Review
+2024-11-18 19:48:39,421 - module - INFO - 开始处理文章: CLCE: An Approach to Refining Cross-Entropy and Contrastive Learning for
+  Optimized Learning Fusion
+2024-11-18 19:48:40,319 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:40,321 - module - INFO - 成功处理文章: RETR: Multi-View Radar Detection Transformer for Indoor Perception
+2024-11-18 19:48:40,975 - module - INFO - 开始处理文章: MDHP-Net: Detecting Injection Attacks on In-vehicle Network using
+  Multi-Dimensional Hawkes Process and Temporal Model
+2024-11-18 19:48:41,167 - module - INFO - 开始处理文章: The Unreasonable Effectiveness of Guidance for Diffusion Models
+2024-11-18 19:48:41,425 - module - INFO - 开始处理文章: Artificial Intelligence in Pediatric Echocardiography: Exploring
+  Challenges, Opportunities, and Clinical Applications with Explainable AI and
+  Federated Learning
+2024-11-18 19:48:41,737 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:41,739 - module - INFO - 成功处理文章: Open LLMs are Necessary for Current Private Adaptations and Outperform
+  their Closed Alternatives
+2024-11-18 19:48:42,232 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:42,235 - module - INFO - 成功处理文章: Systolic Arrays and Structured Pruning Co-design for Efficient
+  Transformers in Edge Systems
+2024-11-18 19:48:42,325 - module - INFO - 开始处理文章: Uncertainty in Supply Chain Digital Twins: A Quantum-Classical Hybrid
+  Approach
+2024-11-18 19:48:42,979 - module - INFO - 开始处理文章: Scaling up the Evaluation of Collaborative Problem Solving: Promises and
+  Challenges of Coding Chat Data with ChatGPT
+2024-11-18 19:48:43,168 - module - INFO - 开始处理文章: Optimization-based Prompt Injection Attack to LLM-as-a-Judge
+2024-11-18 19:48:43,425 - module - INFO - 开始处理文章: Measuring Non-Adversarial Reproduction of Training Data in Large
+  Language Models
+2024-11-18 19:48:43,586 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:43,588 - module - INFO - 成功处理文章: The Silicon Ceiling: Auditing GPT's Race and Gender Biases in Hiring
+2024-11-18 19:48:43,744 - module - INFO - 开始处理文章: Learning rheological parameters of non-Newtonian fluids from velocimetry
+  data
+2024-11-18 19:48:44,239 - module - INFO - 开始处理文章: DCD: Discriminative and Consistent Representation Distillation
+2024-11-18 19:48:44,296 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:44,300 - module - INFO - 成功处理文章: ThermoHands: A Benchmark for 3D Hand Pose Estimation from Egocentric
+  Thermal Images
+2024-11-18 19:48:44,325 - module - INFO - 开始处理文章: Efficient Neural Hybrid System Learning and Transition System
+  Abstraction for Dynamical Systems
+2024-11-18 19:48:44,982 - module - INFO - 开始处理文章: Generative AI in Multimodal User Interfaces: Trends, Challenges, and
+  Cross-Platform Adaptability
+2024-11-18 19:48:45,595 - module - INFO - 开始处理文章: GenoCraft: A Comprehensive, User-Friendly Web-Based Platform for
+  High-Throughput Omics Data Analysis and Visualization
+2024-11-18 19:48:45,745 - module - INFO - 开始处理文章: ColorEdit: Training-free Image-Guided Color editing with diffusion model
+2024-11-18 19:48:46,242 - module - INFO - 开始处理文章: A Low-Resolution Image is Worth 1x1 Words: Enabling Fine Image
+  Super-Resolution with Transformers and TaylorShift
+2024-11-18 19:48:46,304 - module - INFO - 开始处理文章: Entropy and type-token ratio in gigaword corpora
+2024-11-18 19:48:46,329 - module - INFO - 开始处理文章: MCL: Multi-view Enhanced Contrastive Learning for Chest X-ray Report
+  Generation
+2024-11-18 19:48:46,985 - module - INFO - 开始处理文章: A Survey on State-of-the-art Deep Learning Applications and Challenges
+2024-11-18 19:48:47,596 - module - INFO - 开始处理文章: Supra-Laplacian Encoding for Transformer on Dynamic Graphs
+2024-11-18 19:48:47,749 - module - INFO - 开始处理文章: Machine Learning Algorithms to Assess Site Closure Time Frames for Soil
+  and Groundwater Contamination
+2024-11-18 19:48:48,306 - module - INFO - 开始处理文章: Fault Injection and Safe-Error Attack for Extraction of Embedded Neural
+  Network Models
+2024-11-18 19:48:48,333 - module - INFO - 开始处理文章: An Empirical Study on LLM-based Agents for Automated Bug Fixing
+2024-11-18 19:48:48,986 - module - INFO - 开始处理文章: Embedding Byzantine Fault Tolerance into Federated Learning via Virtual
+  Data-Driven Consistency Scoring Plugin
+2024-11-18 19:48:49,752 - module - INFO - 开始处理文章: Fused Gromov-Wasserstein Variance Decomposition with Linear Optimal
+  Transport
+2024-11-18 19:48:50,310 - module - INFO - 开始处理文章: An Ontology-based Approach Towards Traceable Behavior Specifications in
+  Automated Driving
+2024-11-18 19:48:50,656 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:50,658 - module - INFO - 成功处理文章: Multidimensional Byte Pair Encoding: Shortened Sequences for Improved
+  Visual Data Generation
+2024-11-18 19:48:50,990 - module - INFO - 开始处理文章: A logic for reasoning with inconsistent knowledge -- A reformulation
+  using nowadays terminology (2024)
+2024-11-18 19:48:51,670 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:51,672 - module - INFO - 成功处理文章: Scaling Law for Post-training after Model Pruning
+2024-11-18 19:48:51,703 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:51,704 - module - INFO - 成功处理文章: Optimization-based Prompt Injection Attack to LLM-as-a-Judge
+2024-11-18 19:48:51,714 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:51,716 - module - INFO - 成功处理文章: Measuring Non-Adversarial Reproduction of Training Data in Large
+  Language Models
+2024-11-18 19:48:51,756 - module - INFO - 开始处理文章: FengWu-W2S: A deep learning model for seamless weather-to-subseasonal
+  forecast of global atmosphere
+2024-11-18 19:48:52,138 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:52,140 - module - INFO - 成功处理文章: Supra-Laplacian Encoding for Transformer on Dynamic Graphs
+2024-11-18 19:48:52,313 - module - INFO - 开始处理文章: DEEP-IoT: Downlink-Enhanced Efficient-Power Internet of Things
+2024-11-18 19:48:52,662 - module - INFO - 开始处理文章: Agentic LLMs in the Supply Chain: Towards Autonomous Multi-Agent
+  Consensus-Seeking
+2024-11-18 19:48:52,850 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:52,852 - module - INFO - 成功处理文章: An Empirical Study on LLM-based Agents for Automated Bug Fixing
+2024-11-18 19:48:52,995 - module - INFO - 开始处理文章: CART: Compositional Auto-Regressive Transformer for Image Generation
+2024-11-18 19:48:53,676 - module - INFO - 开始处理文章: Let people fail! Exploring the influence of explainable virtual and
+  robotic agents in learning-by-doing tasks
+2024-11-18 19:48:53,709 - module - INFO - 开始处理文章: The Surprising Ineffectiveness of Pre-Trained Visual Representations for
+  Model-Based Reinforcement Learning
+2024-11-18 19:48:53,717 - module - INFO - 开始处理文章: A Hard-Label Cryptanalytic Extraction of Non-Fully Connected Deep Neural
+  Networks using Side-Channel Attacks
+2024-11-18 19:48:53,760 - module - INFO - 开始处理文章: Semantics and Spatiality of Emergent Communication
+2024-11-18 19:48:54,145 - module - INFO - 开始处理文章: Increasing the Accessibility of Causal Domain Knowledge via Causal
+  Information Extraction Methods: A Case Study in the Semiconductor
+  Manufacturing Industry
+2024-11-18 19:48:54,316 - module - INFO - 开始处理文章: Imagine-2-Drive: High-Fidelity World Modeling in CARLA for Autonomous
+  Vehicles
+2024-11-18 19:48:54,856 - module - INFO - 开始处理文章: Evaluating the role of `Constitutions' for learning from AI feedback
+2024-11-18 19:48:54,997 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:55,001 - module - ERROR - JSON解析失败: A Low-Resolution Image is Worth 1x1 Words: Enabling Fine Image
+  Super-Resolution with Transformers and TaylorShift, 错误: Expecting value: line 1 column 1 (char 0)
+2024-11-18 19:48:55,678 - module - INFO - 开始处理文章: Compound-QA: A Benchmark for Evaluating LLMs on Compound Questions
+2024-11-18 19:48:55,713 - module - INFO - 开始处理文章: Mitigating Sycophancy in Decoder-Only Transformer Architectures:
+  Synthetic Data Intervention
+2024-11-18 19:48:55,720 - module - INFO - 开始处理文章: Continuous Bayesian Model Selection for Multivariate Causal Discovery
+2024-11-18 19:48:55,762 - module - INFO - 开始处理文章: BONE: a unifying framework for Bayesian online learning in
+  non-stationary environments
+2024-11-18 19:48:55,859 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:55,860 - module - INFO - 成功处理文章: Agentic LLMs in the Supply Chain: Towards Autonomous Multi-Agent
+  Consensus-Seeking
+2024-11-18 19:48:56,149 - module - INFO - 开始处理文章: Causal Time-Series Synchronization for Multi-Dimensional Forecasting
+2024-11-18 19:48:56,317 - module - INFO - 开始处理文章: Do Large Language Models Truly Grasp Mathematics? An Empirical
+  Exploration From Cognitive Psychology
+2024-11-18 19:48:57,002 - module - INFO - 开始处理文章: An Effective Framework to Help Large Language Models Handle
+  Numeric-involved Long-context Tasks
+2024-11-18 19:48:57,054 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:57,056 - module - INFO - 成功处理文章: CART: Compositional Auto-Regressive Transformer for Image Generation
+2024-11-18 19:48:57,722 - module - INFO - 开始处理文章: DaYu: Data-Driven Model for Geostationary Satellite Observed Cloud
+  Images Forecasting
+2024-11-18 19:48:57,767 - module - INFO - 开始处理文章: Arithmetical Binary Decision Tree Traversals
+2024-11-18 19:48:57,862 - module - INFO - 开始处理文章: Legal Evalutions and Challenges of Large Language Models
+2024-11-18 19:48:58,151 - module - INFO - 开始处理文章: Interpretable Concept-Based Memory Reasoning
+2024-11-18 19:48:58,838 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:58,839 - module - INFO - 成功处理文章: Evaluating the role of `Constitutions' for learning from AI feedback
+2024-11-18 19:48:58,953 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:48:58,957 - module - INFO - 成功处理文章: Compound-QA: A Benchmark for Evaluating LLMs on Compound Questions
+2024-11-18 19:48:59,058 - module - INFO - 开始处理文章: FGCE: Feasible Group Counterfactual Explanations for Auditing Fairness
+2024-11-18 19:48:59,770 - module - INFO - 开始处理文章: Prompting and Fine-tuning Large Language Models for Automated Code
+  Review Comment Generation
+2024-11-18 19:49:00,000 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:00,004 - module - INFO - 成功处理文章: Mitigating Sycophancy in Decoder-Only Transformer Architectures:
+  Synthetic Data Intervention
+2024-11-18 19:49:00,136 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:00,138 - module - INFO - 成功处理文章: Do Large Language Models Truly Grasp Mathematics? An Empirical
+  Exploration From Cognitive Psychology
+2024-11-18 19:49:00,156 - module - INFO - 开始处理文章: On the Universal Statistical Consistency of Expansive Hyperbolic Deep
+  Convolutional Neural Networks
+2024-11-18 19:49:00,845 - module - INFO - 开始处理文章: Adversarial Robustness of VAEs across Intersectional Subgroups
+2024-11-18 19:49:00,961 - module - INFO - 开始处理文章: Energy-GNoME: A Living Database of Selected Materials for Energy
+  Applications
+2024-11-18 19:49:01,063 - module - INFO - 开始处理文章: Graph Neural Networks Do Not Always Oversmooth
+2024-11-18 19:49:01,092 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:01,095 - module - INFO - 成功处理文章: An Effective Framework to Help Large Language Models Handle
+  Numeric-involved Long-context Tasks
+2024-11-18 19:49:01,608 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:01,609 - module - INFO - 成功处理文章: DaYu: Data-Driven Model for Geostationary Satellite Observed Cloud
+  Images Forecasting
+2024-11-18 19:49:02,009 - module - INFO - 开始处理文章: Memorization in Attention-only Transformers
+2024-11-18 19:49:02,142 - module - INFO - 开始处理文章: Generative Agent Simulations of 1,000 People
+2024-11-18 19:49:02,157 - module - INFO - 开始处理文章: Identifying Key Drivers of Heatwaves: A Novel Spatio-Temporal Framework
+  for Extreme Event Detection
+2024-11-18 19:49:02,848 - module - INFO - 开始处理文章: Dynamic Dimension Wrapping (DDW) Algorithm: A Novel Approach for
+  Efficient Cross-Dimensional Search in Dynamic Multidimensional Spaces
+2024-11-18 19:49:02,966 - module - INFO - 开始处理文章: Recent Advances on Machine Learning-aided DSP for Short-reach and
+  Long-haul Optical Communications
+2024-11-18 19:49:03,065 - module - INFO - 开始处理文章: Multi-Task Adversarial Variational Autoencoder for Estimating Biological
+  Brain Age with Multimodal Neuroimaging
+2024-11-18 19:49:03,099 - module - INFO - 开始处理文章: Communication Compression for Tensor Parallel LLM Inference
+2024-11-18 19:49:03,611 - module - INFO - 开始处理文章: Neural Port-Hamiltonian Models for Nonlinear Distributed Control: An
+  Unconstrained Parametrization Approach
+2024-11-18 19:49:03,669 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:03,671 - module - INFO - 成功处理文章: Prompting and Fine-tuning Large Language Models for Automated Code
+  Review Comment Generation
+2024-11-18 19:49:04,163 - module - INFO - 开始处理文章: Multi-View Symbolic Regression
+2024-11-18 19:49:04,850 - module - INFO - 开始处理文章: AI and the Future of Work in Africa White Paper
+2024-11-18 19:49:04,967 - module - INFO - 开始处理文章: PFML: Self-Supervised Learning of Time-Series Data Without
+  Representation Collapse
+2024-11-18 19:49:05,069 - module - INFO - 开始处理文章: Graph Neural Networks and Differential Equations: A hybrid approach for
+  data assimilation of fluid flows
+2024-11-18 19:49:05,111 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:05,113 - module - INFO - 成功处理文章: Generative Agent Simulations of 1,000 People
+2024-11-18 19:49:05,375 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:05,377 - module - ERROR - JSON解析失败: Legal Evalutions and Challenges of Large Language Models, 错误: Extra data: line 1 column 2 (char 1)
+2024-11-18 19:49:05,614 - module - INFO - 开始处理文章: Adapting the Biological SSVEP Response to Artificial Neural Networks
+2024-11-18 19:49:05,636 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:05,638 - module - INFO - 成功处理文章: Communication Compression for Tensor Parallel LLM Inference
+2024-11-18 19:49:05,676 - module - INFO - 开始处理文章: Xmodel-1.5: An 1B-scale Multilingual LLM
+2024-11-18 19:49:06,168 - module - INFO - 开始处理文章: Automated Segmentation of Ischemic Stroke Lesions in Non-Contrast
+  Computed Tomography Images for Enhanced Treatment and Prognosis
+2024-11-18 19:49:06,852 - module - INFO - 开始处理文章: Understanding The Effect Of Temperature On Alignment With Human Opinions
+2024-11-18 19:49:06,971 - module - INFO - 开始处理文章: Towards Efficient and Optimal Covariance-Adaptive Algorithms for
+  Combinatorial Semi-Bandits
+2024-11-18 19:49:07,073 - module - INFO - 开始处理文章: Real-Time AI-Driven People Tracking and Counting Using Overhead Cameras
+2024-11-18 19:49:07,116 - module - INFO - 开始处理文章: Evidential Federated Learning for Skin Lesion Image Classification
+2024-11-18 19:49:07,379 - module - INFO - 开始处理文章: Calibration of ordinal regression networks
+2024-11-18 19:49:07,617 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:07,617 - module - INFO - 开始处理文章: Layer Importance and Hallucination Analysis in Large Language Models via
+  Enhanced Activation Variance-Sparsity
+2024-11-18 19:49:07,619 - module - INFO - 成功处理文章: Memorization in Attention-only Transformers
+2024-11-18 19:49:07,643 - module - INFO - 开始处理文章: Dockformer: A transformer-based molecular docking paradigm for
+  large-scale virtual screening
+2024-11-18 19:49:08,169 - module - INFO - 开始处理文章: Adaptive Physics-Guided Neural Network
+2024-11-18 19:49:08,975 - module - INFO - 开始处理文章: Federated Domain Generalization via Prompt Learning and Aggregation
+2024-11-18 19:49:09,075 - module - INFO - 开始处理文章: CMATH: Cross-Modality Augmented Transformer with Hierarchical
+  Variational Distillation for Multimodal Emotion Recognition in Conversation
+2024-11-18 19:49:09,384 - module - INFO - 开始处理文章: Unsupervised Congestion Status Identification Using LMP Data
+2024-11-18 19:49:09,437 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:09,438 - module - INFO - 成功处理文章: Xmodel-1.5: An 1B-scale Multilingual LLM
+2024-11-18 19:49:09,623 - module - INFO - 开始处理文章: KuaiFormer: Transformer-Based Retrieval at Kuaishou
+2024-11-18 19:49:10,137 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:10,139 - module - INFO - 成功处理文章: Layer Importance and Hallucination Analysis in Large Language Models via
+  Enhanced Activation Variance-Sparsity
+2024-11-18 19:49:10,172 - module - INFO - 开始处理文章: Towards unearthing neglected climate innovations from scientific
+  literature using Large Language Models
+2024-11-18 19:49:10,355 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:10,357 - module - INFO - 成功处理文章: Evidential Federated Learning for Skin Lesion Image Classification
+2024-11-18 19:49:10,977 - module - INFO - 开始处理文章: That Chip Has Sailed: A Critique of Unfounded Skepticism Around AI for
+  Chip Design
+2024-11-18 19:49:11,386 - module - INFO - 开始处理文章: Jal Anveshak: Prediction of fishing zones using fine-tuned LlaMa 2
+2024-11-18 19:49:11,443 - module - INFO - 开始处理文章: Physics-informed neural networks need a physicist to be accurate: the
+  case of mass and heat transport in Fischer-Tropsch catalyst particles
+2024-11-18 19:49:11,577 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:11,578 - module - INFO - 成功处理文章: CMATH: Cross-Modality Augmented Transformer with Hierarchical
+  Variational Distillation for Multimodal Emotion Recognition in Conversation
+2024-11-18 19:49:12,141 - module - INFO - 开始处理文章: A Dual Adaptive Assignment Approach for Robust Graph-Based Clustering
+2024-11-18 19:49:12,358 - module - INFO - 开始处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:49:12,476 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:12,478 - module - INFO - 成功处理文章: Understanding The Effect Of Temperature On Alignment With Human Opinions
+2024-11-18 19:49:12,978 - module - INFO - 开始处理文章: DiffLoRA: Generating Personalized Low-Rank Adaptation Weights with
+  Diffusion
+2024-11-18 19:49:13,448 - module - INFO - 开始处理文章: Rethinking Normalization Strategies and Convolutional Kernels for
+  Multimodal Image Fusion
+2024-11-18 19:49:13,580 - module - INFO - 开始处理文章: VMID: A Multimodal Fusion LLM Framework for Detecting and Identifying
+  Misinformation of Short Videos
+2024-11-18 19:49:13,662 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:13,664 - module - INFO - 成功处理文章: KuaiFormer: Transformer-Based Retrieval at Kuaishou
+2024-11-18 19:49:14,145 - module - INFO - 开始处理文章: Approximate Probabilistic Inference for Time-Series Data A Robust Latent
+  Gaussian Model With Temporal Awareness
+2024-11-18 19:49:14,359 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:14,361 - module - INFO - 成功处理文章: Towards unearthing neglected climate innovations from scientific
+  literature using Large Language Models
+2024-11-18 19:49:14,483 - module - INFO - 开始处理文章: MOT\_FCG++: Enhanced Representation of Motion and Appearance Features
+2024-11-18 19:49:14,984 - module - INFO - 开始处理文章: Flow Priors for Linear Inverse Problems via Iterative Corrupted
+  Trajectory Matching
+2024-11-18 19:49:15,117 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:15,119 - module - INFO - 成功处理文章: Dockformer: A transformer-based molecular docking paradigm for
+  large-scale virtual screening
+2024-11-18 19:49:15,450 - module - INFO - 开始处理文章: Model Inversion Attacks: A Survey of Approaches and Countermeasures
+2024-11-18 19:49:15,666 - module - INFO - 开始处理文章: Bridging The Gap between Low-rank and Orthogonal Adaptation via
+  Householder Reflection Adaptation
+2024-11-18 19:49:16,149 - module - INFO - 开始处理文章: Information Extraction from Clinical Notes: Are We Ready to Switch to
+  Large Language Models?
+2024-11-18 19:49:16,366 - module - INFO - 开始处理文章: Towards Utilising a Range of Neural Activations for Comprehending
+  Representational Associations
+2024-11-18 19:49:16,488 - module - INFO - 开始处理文章: Once More, With Feeling: Measuring Emotion of Acting Performances in
+  Contemporary American Film
+2024-11-18 19:49:16,772 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:16,774 - module - INFO - 成功处理文章: REBORN: Reinforcement-Learned Boundary Segmentation with Iterative
+  Training for Unsupervised ASR
+2024-11-18 19:49:16,984 - module - INFO - 开始处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:49:17,124 - module - INFO - 开始处理文章: MicroCrackAttentionNeXt: Advancing Microcrack Detection in Wave Field
+  Analysis Using Deep Neural Networks through Feature Visualization
+2024-11-18 19:49:17,452 - module - INFO - 开始处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:49:18,192 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:18,197 - module - INFO - 成功处理文章: VMID: A Multimodal Fusion LLM Framework for Detecting and Identifying
+  Misinformation of Short Videos
+2024-11-18 19:49:18,366 - module - INFO - 开始处理文章: Efficient Depth Estimation for Unstable Stereo Camera Systems on AR
+  Glasses
+2024-11-18 19:49:18,493 - module - INFO - 开始处理文章: DeepMedcast: A Deep Learning Method for Generating Intermediate Weather
+  Forecasts among Multiple NWP Models
+2024-11-18 19:49:18,778 - module - INFO - 开始处理文章: Graph-based Complexity for Causal Effect by Empirical Plug-in
+2024-11-18 19:49:19,128 - module - INFO - 开始处理文章: Orca: Enhancing Role-Playing Abilities of Large Language Models by
+  Integrating Personality Traits
+2024-11-18 19:49:19,230 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:19,233 - module - INFO - 成功处理文章: Jal Anveshak: Prediction of fishing zones using fine-tuned LlaMa 2
+2024-11-18 19:49:20,200 - module - INFO - 开始处理文章: EyeDiff: text-to-image diffusion model improves rare eye disease
+  diagnosis
+2024-11-18 19:49:20,371 - module - INFO - 开始处理文章: Provably Unlearnable Data Examples
+2024-11-18 19:49:20,496 - module - INFO - 开始处理文章: VLEU: a Method for Automatic Evaluation for Generalizability of
+  Text-to-Image Models
+2024-11-18 19:49:20,783 - module - INFO - 开始处理文章: DuSEGO: Dual Second-order Equivariant Graph Ordinary Differential
+  Equation
+2024-11-18 19:49:20,976 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:20,978 - module - INFO - 成功处理文章: Information Extraction from Clinical Notes: Are We Ready to Switch to
+  Large Language Models?
+2024-11-18 19:49:21,237 - module - INFO - 开始处理文章: Adaptive Non-Uniform Timestep Sampling for Diffusion Model Training
+2024-11-18 19:49:21,677 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:21,681 - module - INFO - 成功处理文章: Bridging The Gap between Low-rank and Orthogonal Adaptation via
+  Householder Reflection Adaptation
+2024-11-18 19:49:22,203 - module - INFO - 开始处理文章: Hyper-multi-step: The Truth Behind Difficult Long-context Tasks
+2024-11-18 19:49:22,376 - module - INFO - 开始处理文章: Building 6G Radio Foundation Models with Transformer Architectures
+2024-11-18 19:49:22,787 - module - INFO - 开始处理文章: Evaluating and Enhancing Large Language Models for Conversational
+  Reasoning on Knowledge Graphs
+2024-11-18 19:49:22,983 - module - INFO - 开始处理文章: Unlocking Transfer Learning for Open-World Few-Shot Recognition
+2024-11-18 19:49:23,239 - module - INFO - 开始处理文章: MANTIS: Interleaved Multi-Image Instruction Tuning
+2024-11-18 19:49:23,683 - module - INFO - 开始处理文章: Fully Dynamic Adversarially Robust Correlation Clustering in
+  Polylogarithmic Update Time
+2024-11-18 19:49:24,644 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:24,690 - module - INFO - 成功处理文章: Orca: Enhancing Role-Playing Abilities of Large Language Models by
+  Integrating Personality Traits
+2024-11-18 19:49:24,987 - module - INFO - 开始处理文章: HistoLens: An LLM-Powered Framework for Multi-Layered Analysis of
+  Historical Texts -- A Case Application of Yantie Lun
+2024-11-18 19:49:25,035 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:25,037 - module - INFO - 成功处理文章: A Simple but Strong Baseline for Sounding Video Generation: Effective
+  Adaptation of Audio and Video Diffusion Models for Joint Generation
+2024-11-18 19:49:25,168 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:25,170 - module - INFO - 成功处理文章: VLEU: a Method for Automatic Evaluation for Generalizability of
+  Text-to-Image Models
+2024-11-18 19:49:25,243 - module - INFO - 开始处理文章: Confidence-aware Denoised Fine-tuning of Off-the-shelf Models for
+  Certified Robustness
+2024-11-18 19:49:25,687 - module - INFO - 开始处理文章: Establishing and Evaluating Trustworthy AI: Overview and Research
+  Challenges
+2024-11-18 19:49:26,695 - module - INFO - 开始处理文章: Large Language Models as User-Agents for Evaluating
+  Task-Oriented-Dialogue Systems
+2024-11-18 19:49:26,740 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:26,742 - module - INFO - 成功处理文章: Building 6G Radio Foundation Models with Transformer Architectures
+2024-11-18 19:49:27,041 - module - INFO - 开始处理文章: Steering AI-Driven Personalization of Scientific Text for General
+  Audiences
+2024-11-18 19:49:27,042 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:27,044 - module - INFO - 成功处理文章: SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature
+  Disentanglement and Enhancement
+2024-11-18 19:49:27,171 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:27,171 - module - INFO - 开始处理文章: Seeing Clearly by Layer Two: Enhancing Attention Heads to Alleviate
+  Hallucination in LVLMs
+2024-11-18 19:49:27,175 - module - INFO - 成功处理文章: Evaluating and Enhancing Large Language Models for Conversational
+  Reasoning on Knowledge Graphs
+2024-11-18 19:49:27,245 - module - INFO - 开始处理文章: HMAFlow: Learning More Accurate Optical Flow via Hierarchical Motion
+  Field Alignment
+2024-11-18 19:49:27,604 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:27,606 - module - INFO - 成功处理文章: Hyper-multi-step: The Truth Behind Difficult Long-context Tasks
+2024-11-18 19:49:27,692 - module - INFO - 开始处理文章: Dense ReLU Neural Networks for Temporal-spatial Model
+2024-11-18 19:49:28,745 - module - INFO - 开始处理文章: Instruction-Guided Editing Controls for Images and Multimedia: A Survey
+  in LLM era
+2024-11-18 19:49:29,045 - module - INFO - 开始处理文章: GGAvatar: Reconstructing Garment-Separated 3D Gaussian Splatting Avatars
+  from Monocular Video
+2024-11-18 19:49:29,176 - module - INFO - 开始处理文章: AdapShare: An RL-Based Dynamic Spectrum Sharing Solution for O-RAN
+2024-11-18 19:49:29,247 - module - INFO - 开始处理文章: SC3D: Label-Efficient Outdoor 3D Object Detection via Single Click
+  Annotation
+2024-11-18 19:49:29,611 - module - INFO - 开始处理文章: LoRA-LiteE: A Computationally Efficient Framework for Chatbot
+  Preference-Tuning
+2024-11-18 19:49:29,696 - module - INFO - 开始处理文章: TEESlice: Protecting Sensitive Neural Network Models in Trusted
+  Execution Environments When Attackers have Pre-Trained Models
+2024-11-18 19:49:29,889 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:29,891 - module - INFO - 成功处理文章: Steering AI-Driven Personalization of Scientific Text for General
+  Audiences
+2024-11-18 19:49:29,894 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:29,897 - module - INFO - 成功处理文章: Large Language Models as User-Agents for Evaluating
+  Task-Oriented-Dialogue Systems
+2024-11-18 19:49:30,274 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:30,276 - module - INFO - 成功处理文章: HistoLens: An LLM-Powered Framework for Multi-Layered Analysis of
+  Historical Texts -- A Case Application of Yantie Lun
+2024-11-18 19:49:31,049 - module - INFO - 开始处理文章: meds_reader: A fast and efficient EHR processing library
+2024-11-18 19:49:31,178 - module - INFO - 开始处理文章: Networking Systems for Video Anomaly Detection: A Tutorial and Survey
+2024-11-18 19:49:31,251 - module - INFO - 开始处理文章: SlimLM: An Efficient Small Language Model for On-Device Document
+  Assistance
+2024-11-18 19:49:31,614 - module - INFO - 开始处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:49:31,615 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:31,618 - module - INFO - 成功处理文章: Seeing Clearly by Layer Two: Enhancing Attention Heads to Alleviate
+  Hallucination in LVLMs
+2024-11-18 19:49:31,779 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:31,781 - module - INFO - 成功处理文章: Instruction-Guided Editing Controls for Images and Multimedia: A Survey
+  in LLM era
+2024-11-18 19:49:31,895 - module - INFO - 开始处理文章: Adaptive Transfer Clustering: A Unified Framework
+2024-11-18 19:49:31,901 - module - INFO - 开始处理文章: A Dynamic LLM-Powered Agent Network for Task-Oriented Agent
+  Collaboration
+2024-11-18 19:49:32,280 - module - INFO - 开始处理文章: Refined and Segmented Price Sentiment Indices from Survey Comments
+2024-11-18 19:49:32,702 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:32,704 - module - INFO - 成功处理文章: TEESlice: Protecting Sensitive Neural Network Models in Trusted
+  Execution Environments When Attackers have Pre-Trained Models
+2024-11-18 19:49:33,053 - module - INFO - 开始处理文章: BAdam: A Memory Efficient Full Parameter Optimization Method for Large
+  Language Models
+2024-11-18 19:49:33,183 - module - INFO - 开始处理文章: JRadiEvo: A Japanese Radiology Report Generation Model Enhanced by
+  Evolutionary Optimization of Model Merging
+2024-11-18 19:49:33,252 - module - INFO - 开始处理文章: Is Precise Recovery Necessary? A Task-Oriented Imputation Approach for
+  Time Series Forecasting on Variable Subset
+2024-11-18 19:49:33,618 - module - INFO - 开始处理文章: Effective Generative AI: The Human-Algorithm Centaur
+2024-11-18 19:49:33,785 - module - INFO - 开始处理文章: Motion-Grounded Video Reasoning: Understanding and Perceiving Motion at
+  Pixel Level
+2024-11-18 19:49:33,897 - module - INFO - 开始处理文章: Efficient Pauli channel estimation with logarithmic quantum memory
+2024-11-18 19:49:34,710 - module - INFO - 开始处理文章: ORLM: A Customizable Framework in Training Large Models for Automated
+  Optimization Modeling
+2024-11-18 19:49:35,256 - module - INFO - 开始处理文章: Physics-informed Machine Learning for Battery Pack Thermal Management
+2024-11-18 19:49:35,282 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:35,284 - module - INFO - 成功处理文章: A Dynamic LLM-Powered Agent Network for Task-Oriented Agent
+  Collaboration
+2024-11-18 19:49:35,332 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:35,334 - module - INFO - 成功处理文章: Zero-shot Voice Conversion with Diffusion Transformers
+2024-11-18 19:49:35,903 - module - INFO - 开始处理文章: How Does Vision-Language Adaptation Impact the Safety of Vision Language
+  Models?
+2024-11-18 19:49:35,997 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:35,999 - module - INFO - 成功处理文章: Refined and Segmented Price Sentiment Indices from Survey Comments
+2024-11-18 19:49:37,051 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:37,053 - module - INFO - 成功处理文章: BAdam: A Memory Efficient Full Parameter Optimization Method for Large
+  Language Models
+2024-11-18 19:49:37,083 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:37,085 - module - INFO - 成功处理文章: Effective Generative AI: The Human-Algorithm Centaur
+2024-11-18 19:49:37,261 - module - INFO - 开始处理文章: Stabilizer bootstrapping: A recipe for efficient agnostic tomography and
+  magic estimation
+2024-11-18 19:49:37,287 - module - INFO - 开始处理文章: AMXFP4: Taming Activation Outliers with Asymmetric Microscaling
+  Floating-Point for 4-bit LLM Inference
+2024-11-18 19:49:37,338 - module - INFO - 开始处理文章: A Multi-Granularity Supervised Contrastive Framework for Remaining
+  Useful Life Prediction of Aero-engines
+2024-11-18 19:49:38,000 - module - INFO - 开始处理文章: Self-Supervised Learning of Grasping Arbitrary Objects On-the-Move
+2024-11-18 19:49:38,160 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:38,162 - module - INFO - 成功处理文章: Motion-Grounded Video Reasoning: Understanding and Perceiving Motion at
+  Pixel Level
+2024-11-18 19:49:39,056 - module - INFO - 开始处理文章: CleanerCLIP: Fine-grained Counterfactual Semantic Augmentation for
+  Backdoor Defense in Contrastive Learning
+2024-11-18 19:49:39,089 - module - INFO - 开始处理文章: Statistical Analysis of Policy Space Compression Problem
+2024-11-18 19:49:39,121 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:39,123 - module - INFO - 成功处理文章: ORLM: A Customizable Framework in Training Large Models for Automated
+  Optimization Modeling
+2024-11-18 19:49:39,264 - module - INFO - 开始处理文章: Revealing the Evolution of Order in Materials Microstructures Using
+  Multi-Modal Computer Vision
+2024-11-18 19:49:39,343 - module - INFO - 开始处理文章: DriveThru: a Document Extraction Platform and Benchmark Datasets for
+  Indonesian Local Language Archives
+2024-11-18 19:49:40,004 - module - INFO - 开始处理文章: Deep learning robotics using self-supervised spatial differentiation
+  drive autonomous contact-based semiconductor characterization
+2024-11-18 19:49:40,167 - module - INFO - 开始处理文章: Off-Dynamics Reinforcement Learning via Domain Adaptation and Reward
+  Augmented Imitation
+2024-11-18 19:49:40,930 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:40,931 - module - INFO - 成功处理文章: AMXFP4: Taming Activation Outliers with Asymmetric Microscaling
+  Floating-Point for 4-bit LLM Inference
+2024-11-18 19:49:41,092 - module - INFO - 开始处理文章: Geometry of orofacial neuromuscular signals: speech articulation
+  decoding using surface electromyography
+2024-11-18 19:49:41,127 - module - INFO - 开始处理文章: Research on Domain-Specific Chinese Spelling Correction Method Based on
+  Plugin Extension Modules
+2024-11-18 19:49:41,267 - module - INFO - 开始处理文章: Automated Clinical Data Extraction with Knowledge Conditioned LLMs
+2024-11-18 19:49:42,008 - module - INFO - 开始处理文章: A Hybrid Artificial Intelligence System for Automated EEG Background
+  Analysis and Report Generation
+2024-11-18 19:49:42,171 - module - INFO - 开始处理文章: Semantic Segmentation by Semantic Proportions
+2024-11-18 19:49:42,751 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:42,753 - module - INFO - 成功处理文章: How Does Vision-Language Adaptation Impact the Safety of Vision Language
+  Models?
+2024-11-18 19:49:42,934 - module - INFO - 开始处理文章: DeepOSets: Non-Autoregressive In-Context Learning of Supervised Learning
+  Operators
+2024-11-18 19:49:43,097 - module - INFO - 开始处理文章: Adversarial Environment Design via Regret-Guided Diffusion Models
+2024-11-18 19:49:43,131 - module - INFO - 开始处理文章: Mitigating Gradient Overlap in Deep Residual Networks with Gradient
+  Normalization for Improved Non-Convex Optimization
+2024-11-18 19:49:43,385 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:43,386 - module - INFO - 成功处理文章: JRadiEvo: A Japanese Radiology Report Generation Model Enhanced by
+  Evolutionary Optimization of Model Merging
+2024-11-18 19:49:43,544 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:43,546 - module - INFO - 成功处理文章: DriveThru: a Document Extraction Platform and Benchmark Datasets for
+  Indonesian Local Language Archives
+2024-11-18 19:49:44,176 - module - INFO - 开始处理文章: InvestESG: A multi-agent reinforcement learning benchmark for studying
+  climate investment as a social dilemma
+2024-11-18 19:49:44,757 - module - INFO - 开始处理文章: EHRMamba: Towards Generalizable and Scalable Foundation Models for
+  Electronic Health Records
+2024-11-18 19:49:45,100 - module - INFO - 开始处理文章: Fair Secretaries with Unfair Predictions
+2024-11-18 19:49:45,133 - module - INFO - 开始处理文章: KULCQ: An Unsupervised Keyword-based Utterance Level Clustering Quality
+  Metric
+2024-11-18 19:49:45,391 - module - INFO - 开始处理文章: InterFormer: Towards Effective Heterogeneous Interaction Learning for
+  Click-Through Rate Prediction
+2024-11-18 19:49:45,547 - module - INFO - 开始处理文章: Demystifying Large Language Models for Medicine: A Primer
+2024-11-18 19:49:46,180 - module - INFO - 开始处理文章: ConSmax: Hardware-Friendly Alternative Softmax with Learnable Parameters
+2024-11-18 19:49:47,104 - module - INFO - 开始处理文章: SymbolFit: Automatic Parametric Modeling with Symbolic Regression
+2024-11-18 19:49:47,134 - module - INFO - 开始处理文章: Enhancing Diffusion Posterior Sampling for Inverse Problems by
+  Integrating Crafted Measurements
+2024-11-18 19:49:47,385 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:47,387 - module - INFO - 成功处理文章: Automated Clinical Data Extraction with Knowledge Conditioned LLMs
+2024-11-18 19:49:47,395 - module - INFO - 开始处理文章: From Isolation to Collaboration: Federated Class-Heterogeneous Learning
+  for Chest X-Ray Classification
+2024-11-18 19:49:47,875 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:47,878 - module - INFO - 成功处理文章: CleanerCLIP: Fine-grained Counterfactual Semantic Augmentation for
+  Backdoor Defense in Contrastive Learning
+2024-11-18 19:49:50,327 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:50,329 - module - INFO - 成功处理文章: A Hybrid Artificial Intelligence System for Automated EEG Background
+  Analysis and Report Generation
+2024-11-18 19:49:50,478 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:50,480 - module - INFO - 成功处理文章: DeepOSets: Non-Autoregressive In-Context Learning of Supervised Learning
+  Operators
+2024-11-18 19:49:50,725 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:50,727 - module - INFO - 成功处理文章: EHRMamba: Towards Generalizable and Scalable Foundation Models for
+  Electronic Health Records
+2024-11-18 19:49:51,677 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:51,680 - module - INFO - 成功处理文章: ConSmax: Hardware-Friendly Alternative Softmax with Learnable Parameters
+2024-11-18 19:49:51,903 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:51,905 - module - INFO - 成功处理文章: Demystifying Large Language Models for Medicine: A Primer
+2024-11-18 19:49:52,039 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 19:49:52,041 - module - INFO - 成功处理文章: Enhancing Diffusion Posterior Sampling for Inverse Problems by
+  Integrating Crafted Measurements
+2024-11-18 19:49:52,042 - module - INFO - 开始处理文件：record/20241118/20241118.txt
+2024-11-18 19:49:53,653 - module - INFO - 文件处理完成：record/20241118/20241118.txt
+2024-11-18 19:49:53,653 - module - INFO - === 任务执行结束 ===
+

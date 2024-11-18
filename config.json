@@ -1,0 +1,76 @@
+{
+    "domain_keywords": {
+        "语音理解": [
+            "speech recognition",
+            "speech enhancement",
+            "speech signal processing",
+            "speech denoise",
+            "speech separation",
+            "asr",
+            "acoustic model",
+            "speaker separation",
+            "speech processing"
+        ],
+        "语音生成": [
+            "speech synthesis",
+            "text to speech",
+            "TTS",
+            "voice generation",
+            "speech generation",
+            "voice conversion"
+        ],
+        "语音大模型": [
+            "speech large language model",
+            "speech LLM",
+            "speech LLMs",
+            "speech foundation model",
+            "speech transformer",
+            "speech attention mechanism",
+            "speech foundation models",
+            "acoustic foundation models"
+        ],
+        "音乐生成": [
+            "music generation",
+            "music synthesis",
+            "audio generation",
+            "music transformer",
+            "music model",
+            "music LLMs"
+        ],
+        "大模型": [
+            "large language model",
+            "large language models",
+            "LLM",
+            "LLMs",
+            "foundation model",
+            "transformer",
+            "attention mechanism",
+            "generative agents"
+        ]
+    },
+    "domain_priority": {
+        "语音大模型": 1,
+        "语音理解": 2,
+        "语音生成": 3,
+        "音乐生成": 4,
+        "大模型": 5
+        
+    },
+    "tag_colors": {
+        "语音理解": "blue",
+        "语音生成": "green",
+        "音乐生成": "purple",
+        "大模型": "red",
+        "语音大模型": "orange"
+    },
+    "categories": {
+        "语音理解": ["cs.SD", "eess.AS"],
+        "语音生成": ["cs.SD", "eess.AS"],
+        "语音大模型": ["cs.SD", "eess.AS", "cs.AI", "cs.LG","cs.MM"],
+        "音乐生成": ["cs.SD", "eess.AS","cs.MM"],
+        "大模型": ["cs.AI", "cs.LG", "cs.CL"]
+    },
+    "schedule": {
+        "daily_post_time": "19:46"
+    }
+} 

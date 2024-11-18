@@ -16,3 +16,6 @@ python crawler.py
 ## Result record
 all the match articles will be recorded in a txt file in the record folder.
 
+
+https://xiaomi.f.mioffice.cn/docx/doxk406GBnnd4ipA3WejApXF2l5
+
