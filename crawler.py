@@ -11,7 +11,8 @@ import sys
 
 logger = setup_logger()
 
-feishu_url = "https://open.feishu.cn/open-apis/bot/v2/hook/800df4c6-4770-455b-9fed-f8d65cd1377a"
+# 从配置文件获取飞书URL列表
+feishu_urls = config['feishu']['webhook_urls']
 
 
 def should_run_today():
@@ -50,7 +51,7 @@ def crawl_and_post():
         file_name = crawl_paper()
         if file_name and os.path.isfile(file_name):
             logger.info(f'开始处理文件：{file_name}')
-            post_paper_file(file_name, feishu_url)
+            post_paper_file(file_name)
             logger.info(f'文件处理完成：{file_name}')
         else:
             logger.warning('没有找到文件或文件处理失败')

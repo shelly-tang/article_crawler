@@ -71,6 +71,12 @@
         "大模型": ["cs.AI", "cs.LG", "cs.CL"]
     },
     "schedule": {
-        "daily_post_time": "20:03"
+        "daily_post_time": "07:00"
+    },
+    "feishu": {
+        "webhook_urls": [
+            "https://open.feishu.cn/open-apis/bot/v2/hook/800df4c6-4770-455b-9fed-f8d65cd1377a",
+            "https://open.f.mioffice.cn/open-apis/bot/v2/hook/2a54c775-79de-4dab-ba84-949cc9c2542b"
+        ]
     }
 } 

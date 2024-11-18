@@ -1,6 +1,12 @@
 import requests
 import json
 from config_loader import config
+import logging
+
+logger = logging.getLogger(__name__)
+
+# 获取飞书URL列表
+feishu_urls = config['feishu']['webhook_urls']
 
 
 def cut_str(string, max_len=150):
@@ -10,22 +16,30 @@ def cut_str(string, max_len=150):
 
 
 def post_to_robot(paper_infos, feishu_url, interest_topic):
-    feishu_format = {
-        "type": "template",
-        "data": {
-            "template_id": "AAqDotEjrm0Xo",
-            "template_version_name": "1.0.11",
-            "template_variable": {
-                "field": interest_topic,
-                "article_set": paper_infos,
+    """发送到飞书机器人"""
+    try:
+        feishu_format = {
+            "type": "template",
+            "data": {
+                "template_id": "AAqDotEjrm0Xo",
+                "template_version_name": "1.0.11",
+                "template_variable": {
+                    "field": interest_topic,
+                    "article_set": paper_infos,
+                },
             },
-        },
-    }
-    headers = {"Content-Type": "application/json"}
-    data = {"msg_type": "interactive", "card": feishu_format}
+        }
+        headers = {"Content-Type": "application/json"}
+        data = {"msg_type": "interactive", "card": feishu_format}
 
-    response = requests.post(feishu_url, headers=headers, data=json.dumps(data))
-    # print(response.json().get('msg'))
+        response = requests.post(feishu_url, headers=headers, data=json.dumps(data))
+        if response.status_code != 200:
+            logger.error(f"发送失败，URL: {feishu_url[-8:]}, 状态码: {response.status_code}")
+            logger.error(f"响应内容: {response.text}")
+        else:
+            logger.info(f"成功发送 {interest_topic} 领域的论文到 URL: {feishu_url[-8:]}")
+    except Exception as e:
+        logger.error(f"发送失败，URL: {feishu_url[-8:]}: {str(e)}", exc_info=True)
 
 
 def judge_accept_paper(paper_infos):
@@ -115,10 +129,19 @@ def group_papers_by_domain(papers):
 
 
 def post_paper_file(file_name, feishu_url):
-    papers = read_paper_file(file_name)
-    domain_groups = group_papers_by_domain(papers)
+    """处理并发送论文文件"""
+    try:
+        papers = read_paper_file(file_name)
+        domain_groups = group_papers_by_domain(papers)
 
-    domain_priority = config['domain_priority']
-    for domain in sorted(domain_priority.keys(), key=lambda x: domain_priority[x]):
-        if domain_groups[domain]:  # 只发送有论文的领域
-            post_to_robot(domain_groups[domain][:30], feishu_url, domain)
+        domain_priority = config['domain_priority']
+        for domain in sorted(domain_priority.keys(), key=lambda x: domain_priority[x]):
+            if domain_groups[domain]:  # 只发送有论文的领域
+                logger.info(f"发送 {domain} 领域的论文，数量: {len(domain_groups[domain][:30])}")
+                # 向所有URL发送
+                for url in feishu_urls:
+                    post_to_robot(domain_groups[domain][:30], url, domain)
+
+        logger.info(f"文件处理完成: {file_name}")
+    except Exception as e:
+        logger.error(f"处理文件失败: {str(e)}", exc_info=True)
