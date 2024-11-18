@@ -1303,3 +1303,33 @@
 2024-11-18 19:49:53,653 - module - INFO - 文件处理完成：record/20241118/20241118.txt
 2024-11-18 19:49:53,653 - module - INFO - === 任务执行结束 ===
 
+2024-11-18 20:01:58,465 - module - INFO - 定时任务已启动，将在每天 19:46 执行
+2024-11-18 20:01:58,467 - module - INFO - 下次执行时间: 2024-11-19 19:46:00
+2024-11-18 20:01:58,468 - module - INFO - 等待时间: 85442 秒
+2024-11-18 20:02:05,742 - module - INFO - 收到退出信号，正在关闭程序...
+2024-11-18 20:02:05,742 - module - INFO - 程序已退出
+2024-11-18 20:02:15,881 - module - INFO - 定时任务已启动，将在每天 20:02 执行
+2024-11-18 20:02:15,883 - module - INFO - 下次执行时间: 2024-11-19 20:02:00
+2024-11-18 20:02:15,883 - module - INFO - 等待时间: 86384 秒
+2024-11-18 20:02:23,186 - module - INFO - 收到退出信号，正在关闭程序...
+2024-11-18 20:02:23,186 - module - INFO - 程序已退出
+2024-11-18 20:02:25,110 - module - INFO - 定时任务已启动，将在每天 20:03 执行
+2024-11-18 20:02:25,111 - module - INFO - 下次执行时间: 2024-11-18 20:03:00
+2024-11-18 20:02:25,112 - module - INFO - 等待时间: 35 秒
+2024-11-18 20:03:00,015 - module - INFO - 下次执行时间: 2024-11-19 20:03:00
+2024-11-18 20:03:00,015 - module - INFO - 等待时间: 86400 秒
+2024-11-18 20:03:00,015 - module - INFO - === 开始执行爬取和发送任务 ===
+2024-11-18 20:03:00,015 - module - INFO - 当前时间: 2024-11-18 20:03:00
+2024-11-18 20:03:00,015 - module - INFO - 星期: 一
+2024-11-18 20:03:00,015 - module - INFO - 
+开始执行论文检索 - 当前时间: 2024-11-18 20:03:00
+2024-11-18 20:03:00,016 - module - INFO - 今天是周一，检索范围：2024-11-15 到 2024-11-17
+2024-11-18 20:03:00,016 - module - INFO - 领域 语音理解 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS") AND lastUpdatedDate:[202411150000 TO 202411172359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 20:03:00,016 - module - INFO - 领域 语音生成 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS") AND lastUpdatedDate:[202411150000 TO 202411172359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 20:03:00,017 - module - INFO - 领域 语音大模型 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS" OR cat:"cs.AI" OR cat:"cs.LG" OR cat:"cs.MM") AND lastUpdatedDate:[202411150000 TO 202411172359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 20:03:00,017 - module - INFO - 领域 音乐生成 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS" OR cat:"cs.MM") AND lastUpdatedDate:[202411150000 TO 202411172359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 20:03:00,017 - module - INFO - 领域 大模型 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.AI" OR cat:"cs.LG" OR cat:"cs.CL") AND lastUpdatedDate:[202411150000 TO 202411172359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-18 20:03:14,258 - module - INFO - 收到退出信号，正在关闭程序...
+2024-11-18 20:03:14,259 - module - INFO - === 任务执行结束 ===
+
+2024-11-18 20:03:14,259 - module - INFO - 程序已退出

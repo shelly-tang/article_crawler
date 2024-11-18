@@ -159,16 +159,16 @@ def get_date_range():
     weekday = current_date.weekday()  # 0-6 表示周一到周日
 
     if weekday == 0:  # 周一
-        # 检索周六到周一的论文
-        start_date = current_date - datetime.timedelta(days=3)  # 从周六开始
-        end_date = current_date
+        # 检索周五到周日的论文
+        start_date = current_date - datetime.timedelta(days=3)  # 从周五开始
+        end_date = current_date - datetime.timedelta(days=1)  # 到周日结束
         logger.info(
             f"今天是周一，检索范围：{start_date.strftime('%Y-%m-%d')} 到 {end_date.strftime('%Y-%m-%d')}"
         )
     else:  # 周二到周五
         # 只检索前一天的论文
         start_date = current_date - datetime.timedelta(days=1)
-        end_date = current_date
+        end_date = current_date - datetime.timedelta(days=1)  # 只检索前一天
         logger.info(
             f"今天是周{weekday + 1}，检索范围：{start_date.strftime('%Y-%m-%d')} 到 {end_date.strftime('%Y-%m-%d')}"
         )
@@ -307,7 +307,7 @@ class arxiv_reader:
                 2分：摘要基本清晰，但存在一些语法或拼写错误，语言表达不够精炼。
                 3分：摘要清晰，语言流畅，符合学术规范，但可能缺乏一些修辞上的精炼。
                 4分：摘要非常清晰，语言精炼，表达准确，符合学术写作标准。
-                5分：摘要极其精炼、准确，语言表达无懈可击，体现了高水平的学术写作能力。
+                5分：摘要极其精炼、准确，语言���达无懈可击，体现了高水平的学术写作能力。
         
             论文的标题是：{title}
             论文的摘要如下：{query_message}
@@ -459,7 +459,7 @@ class arxiv_reader:
                 5分：摘要中不仅详细描述了研究方法，而且方法创新，具有科学性和严谨性。
             part3. 结果（20%）：
                 1分：摘要中未提供结果或结果描述不清晰，无法判断研究的有效性。
-                2分：摘要中提到了一些结果，但缺乏详细数据和解释，难以评估结果的意义。
+                2分：摘要中提到了一些结果，但缺乏详细数据和解��，难以评估结果的��义。
                 3分：摘要中提供了清晰的结果描述，数据基本完整，但可能缺乏深入的解释。
                 4分：摘要中不仅提供了清晰的结果描述，而且对结果进行了深入的解释，结果具有一定的说服力。
                 5分：摘要中的结果描述详尽，数据完整，解释深入，结果具有显著性和重要意义。
