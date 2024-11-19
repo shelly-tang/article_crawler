@@ -1333,3 +1333,94 @@
 2024-11-18 20:03:14,259 - module - INFO - === 任务执行结束 ===
 
 2024-11-18 20:03:14,259 - module - INFO - 程序已退出
+2024-11-18 20:40:43,357 - module - INFO - 定时任务已启动，将在每天 20:41 执行
+2024-11-18 20:40:43,359 - module - INFO - 下次执行时间: 2024-11-18 20:41:00
+2024-11-18 20:40:43,359 - module - INFO - 等待时间: 17 秒
+2024-11-18 20:41:00,000 - module - INFO - 下次执行时间: 2024-11-19 20:41:00
+2024-11-18 20:41:00,001 - module - INFO - 等待时间: 86400 秒
+2024-11-18 20:41:00,001 - module - INFO - === 开始执行爬取和发送任务 ===
+2024-11-18 20:41:00,001 - module - INFO - 当前时间: 2024-11-18 20:41:00
+2024-11-18 20:41:00,001 - module - INFO - 星期: 一
+2024-11-18 20:41:00,001 - module - ERROR - 处理失败: name 'file_name' is not defined
+Traceback (most recent call last):
+  File "/root/tangxinyu/article_crawler/crawler.py", line 52, in crawl_and_post
+    if file_name and os.path.isfile(file_name):
+       ^^^^^^^^^
+NameError: name 'file_name' is not defined
+2024-11-18 20:41:00,004 - module - INFO - === 任务执行结束 ===
+
+2024-11-18 20:41:12,501 - module - INFO - 收到退出信号，正在关闭程序...
+2024-11-18 20:41:12,501 - module - INFO - 程序已退出
+2024-11-18 20:43:01,565 - module - INFO - 定时任务已启动，将在每天 20:41 执行
+2024-11-18 20:43:01,567 - module - INFO - 下次执行时间: 2024-11-19 20:41:00
+2024-11-18 20:43:01,567 - module - INFO - 等待时间: 86278 秒
+2024-11-18 20:43:05,861 - module - INFO - 收到退出信号，正在关闭程序...
+2024-11-18 20:43:05,861 - module - INFO - 程序已退出
+2024-11-18 20:43:20,770 - module - INFO - 定时任务已启动，将在每天 20:44 执行
+2024-11-18 20:43:20,772 - module - INFO - 下次执行时间: 2024-11-18 20:44:00
+2024-11-18 20:43:20,773 - module - INFO - 等待时间: 39 秒
+2024-11-18 20:44:00,001 - module - INFO - 下次执行时间: 2024-11-19 20:44:00
+2024-11-18 20:44:00,001 - module - INFO - 等待时间: 86400 秒
+2024-11-18 20:44:00,001 - module - INFO - === 开始执行爬取和发送任务 ===
+2024-11-18 20:44:00,001 - module - INFO - 当前时间: 2024-11-18 20:44:00
+2024-11-18 20:44:00,001 - module - INFO - 星期 一
+2024-11-18 20:44:00,001 - module - INFO - 开始处理文件：/root/tangxinyu/article_crawler/record/20241118/20241118.txt
+2024-11-18 20:44:00,001 - module - ERROR - 处理失败: post_paper_file() missing 1 required positional argument: 'feishu_url'
+Traceback (most recent call last):
+  File "/root/tangxinyu/article_crawler/crawler.py", line 55, in crawl_and_post
+    post_paper_file(file_name)
+TypeError: post_paper_file() missing 1 required positional argument: 'feishu_url'
+2024-11-18 20:44:00,002 - module - INFO - === 任务执行结束 ===
+
+2024-11-18 20:44:24,978 - module - INFO - 收到退出信号，正在关闭程序...
+2024-11-18 20:44:24,979 - module - INFO - 程序已退出
+2024-11-18 20:45:09,234 - module - INFO - 定时任务已启动，将在每天 20:44 执行
+2024-11-18 20:45:09,241 - module - INFO - 下次执行时间: 2024-11-19 20:44:00
+2024-11-18 20:45:09,242 - module - INFO - 等待时间: 86331 秒
+2024-11-18 20:45:10,380 - module - INFO - 收到退出信号，正在关闭程序...
+2024-11-18 20:45:10,380 - module - INFO - 程序已退出
+2024-11-18 20:45:23,980 - module - INFO - 定时任务已启动，将在每天 20:46 执行
+2024-11-18 20:45:23,983 - module - INFO - 下次执行时间: 2024-11-18 20:46:00
+2024-11-18 20:45:23,983 - module - INFO - 等待时间: 36 秒
+2024-11-18 20:46:00,001 - module - INFO - 下次执行时间: 2024-11-19 20:46:00
+2024-11-18 20:46:00,001 - module - INFO - 等待时间: 86400 秒
+2024-11-18 20:46:00,001 - module - INFO - === 开始执行爬取和发送任务 ===
+2024-11-18 20:46:00,001 - module - INFO - 当前时间: 2024-11-18 20:46:00
+2024-11-18 20:46:00,001 - module - INFO - 星期 一
+2024-11-18 20:46:00,001 - module - INFO - 开始处理文件：/root/tangxinyu/article_crawler/record/20241118/20241118.txt
+2024-11-18 20:46:00,004 - post_paper - INFO - 发送 语音理解 领域的论文，数量: 20
+2024-11-18 20:46:00,600 - post_paper - INFO - 成功发送 语音理解 领域的论文到 URL: 5cd1377a
+2024-11-18 20:46:01,009 - post_paper - INFO - 成功发送 语音理解 领域的论文到 URL: c9c2542b
+2024-11-18 20:46:01,010 - post_paper - INFO - 发送 语音生成 领域的论文，数量: 9
+2024-11-18 20:46:03,931 - post_paper - INFO - 成功发送 语音生成 领域的论文到 URL: 5cd1377a
+2024-11-18 20:46:04,315 - post_paper - INFO - 成功发送 语音生成 领域的论文到 URL: c9c2542b
+2024-11-18 20:46:04,315 - post_paper - INFO - 发送 大模型 领域的论文，数量: 30
+2024-11-18 20:46:04,964 - post_paper - INFO - 成功发送 大模型 领域的论文到 URL: 5cd1377a
+2024-11-18 20:46:15,718 - post_paper - INFO - 成功发送 大模型 领域的论文到 URL: c9c2542b
+2024-11-18 20:46:15,719 - post_paper - INFO - 文件处理完成: /root/tangxinyu/article_crawler/record/20241118/20241118.txt
+2024-11-18 20:46:15,719 - module - INFO - 文件处理完成：/root/tangxinyu/article_crawler/record/20241118/20241118.txt
+2024-11-18 20:46:15,719 - module - INFO - === 任务执行结束 ===
+
+2024-11-18 20:47:16,166 - module - INFO - 收到退出信号，正在关闭程序...
+2024-11-18 20:47:16,166 - module - INFO - 程序已退出
+2024-11-18 20:52:51,092 - module - INFO - 定时任务已启动，将在每天 07:30 执行
+2024-11-18 20:52:51,095 - module - INFO - 下次执行时间: 2024-11-19 07:30:00
+2024-11-18 20:52:51,095 - module - INFO - 等待时间: 38229 秒
+2024-11-19 07:30:00,655 - module - INFO - 下次执行时间: 2024-11-20 07:30:00
+2024-11-19 07:30:00,655 - module - INFO - 等待时间: 86399 秒
+2024-11-19 07:30:00,655 - module - INFO - === 开始执行爬取和发送任务 ===
+2024-11-19 07:30:00,655 - module - INFO - 当前时间: 2024-11-19 07:30:00
+2024-11-19 07:30:00,655 - module - INFO - 星期 二
+2024-11-19 07:30:00,655 - module - INFO - 
+开始执行论文检索 - 当前时间: 2024-11-19 07:30:00
+2024-11-19 07:30:00,655 - module - INFO - 今天是周2，检索范围：2024-11-18 到 2024-11-18
+2024-11-19 07:30:00,656 - module - INFO - 领域 语音理解 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS") AND lastUpdatedDate:[202411180000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-19 07:30:00,656 - module - INFO - 领域 语音生成 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS") AND lastUpdatedDate:[202411180000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-19 07:30:00,656 - module - INFO - 领域 语音大模型 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS" OR cat:"cs.AI" OR cat:"cs.LG" OR cat:"cs.MM") AND lastUpdatedDate:[202411180000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-19 07:30:00,656 - module - INFO - 领域 音乐生成 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.SD" OR cat:"eess.AS" OR cat:"cs.MM") AND lastUpdatedDate:[202411180000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-19 07:30:00,656 - module - INFO - 领域 大模型 的检索URL: http://export.arxiv.org/api/query?search_query=(cat:"cs.AI" OR cat:"cs.LG" OR cat:"cs.CL") AND lastUpdatedDate:[202411180000 TO 202411182359]&sortBy=lastUpdatedDate&sortOrder=descending&max_results=1000
+2024-11-19 07:30:05,386 - module - INFO - 开始处理文件：record/20241119/20241119.txt
+2024-11-19 07:30:05,386 - post_paper - INFO - 文件处理完成: record/20241119/20241119.txt
+2024-11-19 07:30:05,386 - module - INFO - 文件处理完成：record/20241119/20241119.txt
+2024-11-19 07:30:05,386 - module - INFO - === 任务执行结束 ===
+

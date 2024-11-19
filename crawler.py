@@ -41,13 +41,14 @@ def crawl_and_post():
     current_time = datetime.now()
     logger.info("=== 开始执行爬取和发送任务 ===")
     logger.info(f"当前时间: {current_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    logger.info(f"星期: {['一', '二', '三', '四', '五', '六', '日'][current_time.weekday()]}")
+    logger.info(f"星期 {['一', '二', '三', '四', '五', '六', '日'][current_time.weekday()]}")
 
     if not should_run_today():
         logger.info("今天是周末，不执行发送操作")
         return
 
     try:
+        #file_name ='/root/tangxinyu/article_crawler/record/20241118/20241118.txt'
         file_name = crawl_paper()
         if file_name and os.path.isfile(file_name):
             logger.info(f'开始处理文件：{file_name}')

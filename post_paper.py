@@ -128,7 +128,7 @@ def group_papers_by_domain(papers):
     return domain_groups
 
 
-def post_paper_file(file_name, feishu_url):
+def post_paper_file(file_name):
     """处理并发送论文文件"""
     try:
         papers = read_paper_file(file_name)
