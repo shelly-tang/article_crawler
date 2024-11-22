@@ -15,15 +15,16 @@ def cut_str(string, max_len=150):
     return string[:max_len] + "..."
 
 
-def post_to_robot(paper_infos, feishu_url, interest_topic):
+def post_to_robot(paper_infos, feishu_url, interest_topic, date_title):
     """发送到飞书机器人"""
     try:
         feishu_format = {
             "type": "template",
             "data": {
                 "template_id": "AAqDotEjrm0Xo",
-                "template_version_name": "1.0.11",
+                "template_version_name": "1.0.14",
                 "template_variable": {
+                    "date": date_title,
                     "field": interest_topic,
                     "article_set": paper_infos,
                 },
@@ -128,7 +129,7 @@ def group_papers_by_domain(papers):
     return domain_groups
 
 
-def post_paper_file(file_name):
+def post_paper_file(file_name, date_title):
     """处理并发送论文文件"""
     try:
         papers = read_paper_file(file_name)
@@ -140,7 +141,7 @@ def post_paper_file(file_name):
                 logger.info(f"发送 {domain} 领域的论文，数量: {len(domain_groups[domain][:30])}")
                 # 向所有URL发送
                 for url in feishu_urls:
-                    post_to_robot(domain_groups[domain][:30], url, domain)
+                    post_to_robot(domain_groups[domain][:30], url, domain, date_title)
 
         logger.info(f"文件处理完成: {file_name}")
     except Exception as e:

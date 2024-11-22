@@ -187,7 +187,7 @@ class arxiv_reader:
             f"\n开始执行论文检索 - 当前时间: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
         )
 
-        self.articles = []
+        self.articles = {}
         self.match_articles = []
 
         # 获取日期范围
@@ -225,8 +225,13 @@ class arxiv_reader:
         for domain, url in self.domain_urls.items():
             domain_articles = self._fetch_articles(url)
             for article in domain_articles:
-                article['domain'] = domain  # 标记论文属于哪个领域
-                self.articles.append(article)
+                # 使用论文id作为key
+                article_id = article.get('id', article.get('link'))
+                if article_id not in self.articles:
+                    article['domain'] = domain
+                    self.articles[article_id] = article
+                else:
+                    logger.debug(f"跳过重复论文: {article.get('title')}")
 
     def _fetch_articles(self, url):
         """从指定URL获取论文"""
@@ -410,30 +415,26 @@ class arxiv_reader:
             file.write("")
 
         # 使用线程池并行处理文章
-        with ThreadPoolExecutor(max_workers=10) as executor:  # 可以调整max_workers的数量
+        with ThreadPoolExecutor(max_workers=10) as executor:
             # 提交所有任务
             future_to_article = {
                 executor.submit(self.process_single_article, entry, text_path): entry
-                for entry in self.articles
+                for entry in self.articles.values()
             }
 
-            # 收集成功处理的文章
-            self.match_articles = []
+            # 等待所有任务完成
             for future in as_completed(future_to_article):
-                if future.result():
-                    self.match_articles.append(future.result())
+                future.result()  # 只检查是否有异常，不保存结果
 
         return text_path
 
-    def print_out_matching(self):
-        """
-        Print out the article information stored in the list
-        """
-        for entry in self.match_articles:
-            print("Title:", entry["title"])
-            print("Summary:", entry["summary"])
-            print("Link:", entry["link"])
-            print("\n")
+    # def print_out_matching(self):
+    #     """Print out the article information stored in the list"""
+    #     for article in self.match_articles.values():
+    #         print("Title:", article["title"])
+    #         print("Summary:", article["summary"])
+    #         print("Link:", article["link"])
+    #         print("\n")
 
     def query_gpt4o(self, title, query_message):
         # prompt = (
@@ -456,7 +457,7 @@ class arxiv_reader:
                 1分：摘要中未描述研究方法，或者方法描述过于简略，无法判断其合理性。
                 2分：摘要中提到了研究方法，但描述不够详细，难以评估方法的适用性。
                 3分：摘要中描述了研究方法，方法合理，但可能缺乏一些关键细节。
-                4分：摘要中详细描述了研究方法，包括样本选择、数据收集和分析过程，方法适合于解决研究问题。
+                4分：摘要中详细描述了研究方法，包括样本选择、数据收集和分析过程，方法适合于解决究问题。
                 5分：摘要中不仅详细描述了研究方法，而且方法创新，具有科学性和严谨性。
             part3. 结果（20%）：
                 1分：摘要中未提供结果或结果描述不清晰，无法判断研究的有效性。

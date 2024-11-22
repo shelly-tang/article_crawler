@@ -24,6 +24,7 @@ def should_run_today():
 def crawl_paper():
     # load arxiv class
     arxiv = arxiv_reader()
+    date_title = f"{arxiv.yesterday_date} to {arxiv.today_date}"
 
     # load topic words from config
     arxiv.get_your_interest(config['domain_keywords'])
@@ -33,7 +34,7 @@ def crawl_paper():
 
     # search the relevant article and record it in the record folder
     file_name = arxiv.find_match()
-    return file_name
+    return file_name, date_title
 
 
 def crawl_and_post():
@@ -51,11 +52,12 @@ def crawl_and_post():
         return
 
     try:
-        # file_name ='/root/tangxinyu/article_crawler/record/20241118/20241118.txt'
-        file_name = crawl_paper()
+        # file_name = '/Users/xinyutang/workspace/Article_crawler/record/20241122/20241122.txt'
+        # date_title = '20241122 to 20241122'
+        file_name, date_title = crawl_paper()
         if file_name and os.path.isfile(file_name):
             logger.info(f'开始处理文件：{file_name}')
-            post_paper_file(file_name)
+            post_paper_file(file_name, date_title)
             logger.info(f'文件处理完成：{file_name}')
         else:
             logger.warning('没有找到文件或文件处理失败')
@@ -95,6 +97,7 @@ def daily_crawl():
 
     # 设置每日任务
     schedule.every().day.at(daily_post_time).do(crawl_and_post)
+    # crawl_and_post()
 
     try:
         while True:
