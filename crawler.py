@@ -18,7 +18,7 @@ feishu_urls = config['feishu']['webhook_urls']
 def should_run_today():
     """判断今天是否需要运行"""
     weekday = datetime.now().weekday()  # 0-6 表示周一到周日
-    return weekday < 5  # 周一到周五返回True
+    return weekday in [0, 4]  # 只在周一(0)和周五(4)返回True
 
 
 def crawl_paper():
@@ -39,16 +39,19 @@ def crawl_paper():
 def crawl_and_post():
     """执行爬取和发送操作"""
     current_time = datetime.now()
+    weekday = current_time.weekday()
+    weekday_names = ['一', '二', '三', '四', '五', '六', '日']
+
     logger.info("=== 开始执行爬取和发送任务 ===")
     logger.info(f"当前时间: {current_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    logger.info(f"星期 {['一', '二', '三', '四', '五', '六', '日'][current_time.weekday()]}")
+    logger.info(f"星期{weekday_names[weekday]}")
 
     if not should_run_today():
-        logger.info("今天是周末，不执行发送操作")
+        logger.info("今天不是周一或周五，不执行发送操作")
         return
 
     try:
-        #file_name ='/root/tangxinyu/article_crawler/record/20241118/20241118.txt'
+        # file_name ='/root/tangxinyu/article_crawler/record/20241118/20241118.txt'
         file_name = crawl_paper()
         if file_name and os.path.isfile(file_name):
             logger.info(f'开始处理文件：{file_name}')

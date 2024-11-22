@@ -71,7 +71,7 @@
         "大模型": ["cs.AI", "cs.LG", "cs.CL"]
     },
     "schedule": {
-        "daily_post_time": "07:30"
+        "daily_post_time": "08:30"
     },
     "feishu": {
         "webhook_urls": [
